@@ -12,6 +12,8 @@
 
 using namespace std;
 
+const int NO_NEXT = 20;
+
 int graf[8 * 8];
 
 class Uzel;
@@ -49,6 +51,10 @@ public:
     }
 
     Uzel next() {
+//        cout << "current " << current << " <= size " << hrany.size() << "\n";  
+        if (current>=hrany.size()) {
+//            cout << "Throwing\n";
+            throw NO_NEXT;}
         list<Uzel>::iterator it = hrany.begin();
         for (int i = 0; i < current; i++) {
             it++;
@@ -104,15 +110,26 @@ public:
     }
 
     void add(Uzel x) {
+//        cout << "Removing\n";
         this->kostra.push_back(uzly[x.name]);
         remove();
+//        cout << "after Remove\n";
+//        toString();
     }
 
     Kostra * next() {
+//        cout << "\n\n---------\n" <<"pred\n";
+//        toString();
         vector<Uzel> temp = kostra;
         Kostra * k = new Kostra(kostra, uzly);
         for (vector<Uzel>::iterator i = kostra.begin(); i != kostra.end(); i++) {
-            k->add(i->next());
+//            cout << "Removing for "; i->toString(); cout << "\n";
+            try {
+            Uzel u = i->next();
+            k->add(u);
+            remove(u);}
+            catch (int e){
+            }
         }
         kostra = temp;
         moveToNext();
@@ -169,7 +186,7 @@ int main(int argc, char ** argv) {
 
     stack.push_front(k);
     int x = 0;
-    while (!stack.empty() && x<40) {
+    while (!stack.empty()) {
         Kostra * next = stack.front().next();
         if (next->isFull()) {
             fulls.push_front(*next);
