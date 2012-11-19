@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Transfer.h</itemPath>
+      <itemPath>functions.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +14,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Kostra.cpp</itemPath>
+      <itemPath>Kostra.h</itemPath>
+      <itemPath>LinkedStack.cpp</itemPath>
+      <itemPath>LinkedStack.h</itemPath>
+      <itemPath>Transfer.cpp</itemPath>
+      <itemPath>Uzel.cpp</itemPath>
+      <itemPath>Uzel.h</itemPath>
+      <itemPath>functions.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -31,7 +41,7 @@
     <conf name="Debug" type="1">
       <toolsSet>
         <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
-        <compilerSet>default</compilerSet>
+        <compilerSet>GNU|GNU</compilerSet>
       </toolsSet>
       <compileType>
       </compileType>
@@ -54,6 +64,14 @@
         <asmTool>
           <developmentMode>5</developmentMode>
         </asmTool>
+      </compileType>
+    </conf>
+    <conf name="MPI" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MPI|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
       </compileType>
     </conf>
   </confs>

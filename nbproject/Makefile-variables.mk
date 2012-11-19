@@ -22,6 +22,14 @@ CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/kostra
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
 CND_PACKAGE_NAME_Release=kostra.tar
 CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/kostra.tar
+# MPI configuration
+CND_PLATFORM_MPI=MPI-MacOSX
+CND_ARTIFACT_DIR_MPI=dist/MPI/MPI-MacOSX
+CND_ARTIFACT_NAME_MPI=kostra
+CND_ARTIFACT_PATH_MPI=dist/MPI/MPI-MacOSX/kostra
+CND_PACKAGE_DIR_MPI=dist/MPI/MPI-MacOSX/package
+CND_PACKAGE_NAME_MPI=kostra.tar
+CND_PACKAGE_PATH_MPI=dist/MPI/MPI-MacOSX/package/kostra.tar
 #
 # include compiler specific variables
 #
