@@ -5,11 +5,12 @@
  * Created on November 17, 2012, 12:11 PM
  */
 
-#ifndef TRANSFER_H
-#define	TRANSFER_H
 
 #include "Kostra.h"
 #include "LinkedStack.h"
+
+#ifndef TRANSFER_H
+#define	TRANSFER_H
 
 extern Uzel * uzly;
 
@@ -21,6 +22,7 @@ public:
 
     Transfer(LinkedStack<Kostra> * split);
     Transfer(int * transfer, int * size);
+    Transfer(int);
 
     LinkedStack<Kostra> * unpack();
 

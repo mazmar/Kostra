@@ -10,15 +10,6 @@
 
 using namespace std;
 
-template<> Node<Kostra>::Node(Kostra * k) {
-    ///TODO: dokoncit kopy!!;
-    //        this->k = Kostra(k->kostra);
-    //        this->k = new Kostra(k);
-    this->k = k;
-    this->prev = NULL;
-    this->next = NULL;
-}
-
 template<> LinkedStack<Kostra>::LinkedStack() {
     this->size = 0;
     this->front = NULL;
@@ -47,6 +38,27 @@ template<> void LinkedStack<Kostra>::add(Node<Kostra> * x) {
     }
     this->size++;
     if (this->size % 2 == 0) this->middle = this->middle->next;
+}
+
+template<> void LinkedStack<Kostra>::print() {
+    cout << "Current stack:";
+    Node<Kostra> * n = stack->front;
+    while (n != NULL) {
+        n->k->toString();
+        n = n->next;
+    }
+}
+
+template<> bool LinkedStack<Kostra>::isEmpty() {
+    return this->front == NULL;
+}
+
+template<> void LinkedStack<Kostra>::recalculateMiddle() {
+    this->middle = this->front;
+    int m = ((this->size - 1) / 2);
+    for (int i = 0; i < m; i++) {
+        this->middle = this->middle->next;
+    }
 }
 
 template<> void LinkedStack<Kostra>::add(Kostra * x) {
@@ -101,4 +113,31 @@ template<> LinkedStack<Kostra> * LinkedStack<Kostra>::divide() {
     x->size = this->size / 2;
     this->size = (this->size / 2)+(this->size % 2);
     return x;
+}
+
+template<> void LinkedStack<Kostra>::moveUp() {
+    Node<Kostra> * temp = this->front;
+    if (this->back == this->front) {
+
+        this->front = this->front->firstChild;
+    } else {
+        this->front = temp->next;
+        this->front->prev = NULL;
+        this->back->next = this->front->firstChild;
+        temp->firstChild->prev = this->back;
+    }
+    this->back = temp->lastChild;
+    free(temp);
+    this->size--;
+}
+
+template<> Kostra * LinkedStack<Kostra>::next() {
+    Kostra * kostra = this->front->k->next();
+    if (kostra == NULL) {
+        this->moveUp();
+        return this->next();
+    } else {
+        this->front->addChild(kostra);
+    }
+    return kostra;
 }

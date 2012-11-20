@@ -25,6 +25,7 @@ public:
     std::vector<Uzel>::reverse_iterator current;
     int krok;
     std::string output;
+    bool hasNext;
 
 
     Kostra(int k);

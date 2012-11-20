@@ -5,45 +5,37 @@
  * Created on November 18, 2012, 1:39 PM
  */
 
+
+
 #ifndef LINKEDSTACK_H
 #define	LINKEDSTACK_H
+#include "Node.h"
 
-template <class T>
-class Node {
-public:
-    T * k;
-    Node * prev;
-    Node * next;
-
-    Node(T * k);
-};
-
-template <class T>
+template <class K>
 class LinkedStack {
 public:
-    Node<T> * front;
-    Node<T> * back;
-    Node<T> * middle;
+    Node<K> * front;
+    Node<K> * back;
+    Node<K> * middle;
     int size;
 
     LinkedStack();
 
-    void add(Node<T> * x);
-    void add(T * x);
-    void add(LinkedStack<T>*);
-    T * popBack();
-    T * popFront();
+    void add(Node<K> * x);
+    void add(K * x);
+    void add(LinkedStack<K>*);
+
+    void moveUp();
+
+
+    K * next();
+    K * popBack();
+    K * popFront();
     LinkedStack * divide();
 
-    void recalculateMiddle() {
-        this->middle = this->front;
-        int m = ((this->size - 1) / 2);
-        for (int i = 0; i < m; i++) {
-            this->middle = this->middle->next;
-        }
-    }
+    void print();
+    bool isEmpty();
+    void recalculateMiddle();
 };
-
-
 
 #endif	/* LINKEDSTACK_H */

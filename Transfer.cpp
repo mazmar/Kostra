@@ -5,9 +5,9 @@
  * Created on November 17, 2012, 12:11 PM
  */
 #include <iostream>
+#include "Transfer.h"
 #include "LinkedStack.h"
 #include "Kostra.h"
-#include "Transfer.h"
 
 const int GRAF_SIZE = 8;
 
@@ -43,6 +43,11 @@ Transfer::Transfer(LinkedStack<Kostra> * split) {
 Transfer::Transfer(int * transfer, int * size) {
     this->transfer = transfer;
     this->size = *size;
+}
+
+Transfer::Transfer(int size) {
+    this->size = size;
+    this->transfer = new int[size];
 }
 
 LinkedStack<Kostra> * Transfer::unpack() {

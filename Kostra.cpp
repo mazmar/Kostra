@@ -11,8 +11,11 @@
 
 using namespace std;
 
+
+
 Kostra::Kostra(int k=0) {
     krok = k;
+    this->hasNext = true;
 }
 
 Kostra::Kostra(vector<Uzel> k, int krok, string output) {
@@ -25,6 +28,7 @@ Kostra::Kostra(vector<Uzel> k, int krok, string output) {
     remove();
     current = kostra.rbegin();
     this->output = output;
+    this->hasNext = true;
 }
 
 void Kostra::remove() {
@@ -64,6 +68,7 @@ Kostra * Kostra::next() {
     //        cout << "\n\n---------\n" <<"pred\n";
     //        toString();
     vector<Uzel> temp = kostra;
+    if (!this->hasNext) return NULL;
     Kostra * k = new Kostra(kostra, krok, output);
     k->krok++;
     for (vector<Uzel>::iterator i = kostra.begin(); i != kostra.end(); i++) {
@@ -88,7 +93,7 @@ void Kostra::test(vector<Uzel>::reverse_iterator it) {
     it->current = 0;
     it++;
     if (it == kostra.rend()) {
-        stack->popFront();
+        this->hasNext = false;
     } else {
         if (it->moveToNext()) test(it);
     }
@@ -102,3 +107,4 @@ void Kostra::moveToNext() {
     vector<Uzel>::reverse_iterator i = kostra.rbegin();
     if (i->moveToNext()) test(i);
 }
+

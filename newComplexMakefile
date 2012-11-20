@@ -1,0 +1,88 @@
+## -*- Makefile -*-
+##
+## User: mazmart
+## Time: Nov 19, 2012 10:51:22 PM
+## Makefile created by Oracle Solaris Studio.
+##
+## This file is generated automatically.
+##
+
+
+#### Compiler and tool definitions shared by all build targets #####
+CCC = mpiCC
+CXX = mpiCC
+BASICOPTS = 
+CCFLAGS = 
+CXXFLAGS = 
+CCADMIN = 
+
+
+# Define the target directories.
+TARGETDIR_kostra=star
+
+
+all: $(TARGETDIR_kostra)/kostra
+
+## Target: kostra
+OBJS_kostra =  \
+	$(TARGETDIR_kostra)/functions.o \
+	$(TARGETDIR_kostra)/Kostra.o \
+	$(TARGETDIR_kostra)/LinkedStack.o \
+	$(TARGETDIR_kostra)/main.o \
+	$(TARGETDIR_kostra)/Transfer.o \
+	$(TARGETDIR_kostra)/Uzel.o
+SYSLIBS_kostra = -lm 
+USERLIBS_kostra = $(SYSLIBS_kostra) 
+DEPLIBS_kostra =  
+LDLIBS_kostra = $(USERLIBS_kostra)
+
+
+# Link or archive
+$(TARGETDIR_kostra)/kostra: $(TARGETDIR_kostra) $(OBJS_kostra) $(DEPLIBS_kostra)
+	$(LINK.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ $(OBJS_kostra) $(LDLIBS_kostra)
+
+
+# Compile source files into .o files
+$(TARGETDIR_kostra)/functions.o: $(TARGETDIR_kostra) functions.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ functions.cpp
+
+$(TARGETDIR_kostra)/Kostra.o: $(TARGETDIR_kostra) Kostra.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ Kostra.cpp
+
+$(TARGETDIR_kostra)/LinkedStack.o: $(TARGETDIR_kostra) LinkedStack.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ LinkedStack.cpp
+
+$(TARGETDIR_kostra)/main.o: $(TARGETDIR_kostra) main.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ main.cpp
+
+$(TARGETDIR_kostra)/Transfer.o: $(TARGETDIR_kostra) Transfer.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ Transfer.cpp
+
+$(TARGETDIR_kostra)/Uzel.o: $(TARGETDIR_kostra) Uzel.cpp
+	$(COMPILE.cc) $(CCFLAGS_kostra) $(CPPFLAGS_kostra) -o $@ Uzel.cpp
+
+
+
+#### Clean target deletes all generated files ####
+clean:
+	rm -f \
+		$(TARGETDIR_kostra)/kostra \
+		$(TARGETDIR_kostra)/functions.o \
+		$(TARGETDIR_kostra)/Kostra.o \
+		$(TARGETDIR_kostra)/LinkedStack.o \
+		$(TARGETDIR_kostra)/main.o \
+		$(TARGETDIR_kostra)/Transfer.o \
+		$(TARGETDIR_kostra)/Uzel.o
+	$(CCADMIN)
+	rm -f -r $(TARGETDIR_kostra)
+
+
+# Create the target directory (if needed)
+$(TARGETDIR_kostra):
+	mkdir -p $(TARGETDIR_kostra)
+
+
+# Enable dependency checking
+.KEEP_STATE:
+.KEEP_STATE_FILE:.make.state.GNU-x86_64-Linux
+

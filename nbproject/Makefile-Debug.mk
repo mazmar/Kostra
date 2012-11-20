@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Kostra.o \
 	${OBJECTDIR}/LinkedStack.o \
 	${OBJECTDIR}/Uzel.o \
+	${OBJECTDIR}/Node.o \
 	${OBJECTDIR}/functions.o
 
 
@@ -91,6 +92,11 @@ ${OBJECTDIR}/Uzel.o: Uzel.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/Uzel.o Uzel.cpp
+
+${OBJECTDIR}/Node.o: Node.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/Node.o Node.cpp
 
 ${OBJECTDIR}/functions.o: functions.cpp 
 	${MKDIR} -p ${OBJECTDIR}

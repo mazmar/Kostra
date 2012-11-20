@@ -18,6 +18,8 @@
       <itemPath>Kostra.h</itemPath>
       <itemPath>LinkedStack.cpp</itemPath>
       <itemPath>LinkedStack.h</itemPath>
+      <itemPath>Node.cpp</itemPath>
+      <itemPath>Node.h</itemPath>
       <itemPath>Transfer.cpp</itemPath>
       <itemPath>Uzel.cpp</itemPath>
       <itemPath>Uzel.h</itemPath>
@@ -35,6 +37,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>newComplexMakefile</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -72,6 +75,9 @@
         <compilerSet>MPI|GNU</compilerSet>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <commandlineTool>mpic++</commandlineTool>
+        </linkerTool>
       </compileType>
     </conf>
   </confs>
