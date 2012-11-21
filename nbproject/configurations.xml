@@ -38,6 +38,7 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>newComplexMakefile</itemPath>
+    <itemPath>newComplexMakefile1</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

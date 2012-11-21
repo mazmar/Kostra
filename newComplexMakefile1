@@ -1,7 +1,7 @@
 ## -*- Makefile -*-
 ##
 ## User: mazmart
-## Time: Nov 19, 2012 10:51:22 PM
+## Time: Nov 21, 2012 1:52:40 AM
 ## Makefile created by Oracle Solaris Studio.
 ##
 ## This file is generated automatically.
@@ -12,8 +12,8 @@
 CCC = mpiCC
 CXX = mpiCC
 BASICOPTS = 
-CCFLAGS = 
-CXXFLAGS = 
+CCFLAGS = $(BASICOPTS)
+CXXFLAGS = $(BASICOPTS)
 CCADMIN = 
 
 

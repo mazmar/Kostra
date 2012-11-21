@@ -10,7 +10,10 @@
 
 template <class T>
 class Node {
+    static int idc;
 public:
+    int id;
+    int childSize;
     T * k;
     Node * parent;
     Node * prev;
@@ -20,6 +23,7 @@ public:
 
     void addChild(T *);
     void getNext();
+    void print();
 
     Node(T * k);
 };

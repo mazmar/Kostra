@@ -32,7 +32,7 @@ using namespace std;
 
 const int NO_NEXT = 20;
 
-const int VERTICES = 8;
+const int VERTICES = 30;
 
 const int REQUESTTRESHOLD = 100;
 
@@ -104,20 +104,35 @@ bool checkWork() {
     return flag > 0;
 }
 
+void freeStack() {
+    Node<Kostra> * n = stack->front;
+    while (n != NULL) {
+        if (n->k->krok + 1 >= solution->krok) {
+            delete(stack->popFront());
+            n = stack->front;
+        } else {
+            n = n->next;
+        }
+    }
+}
+
 void setSolution(Kostra * kostra) {
     if (solution == NULL) {
         solution = kostra;
+        freeStack();
     } else {
         if (solution->krok > kostra->krok) {
             solution = kostra;
+            freeStack();
         } else {
-            free(kostra);
+            delete(kostra);
         }
     }
 }
 
 void mainCycle() {
-    for (int i = 0; i < 500; i++) {
+    for (int i = 0; i < 400; i++) {
+      
 
         checkMsgs();
 
@@ -128,19 +143,22 @@ void mainCycle() {
         }
 
         if (stack->isEmpty()) {
-            requestWork();
-
-            reqRank++;
-            if (reqRank == rank) reqRank++;
+            cout << "Solution: ";
+            solution->toString();
+            return;
+            //            requestWork();
+            //
+            //            reqRank++;
+            //            if (reqRank == rank) reqRank++;
 
         } else {
             cout << "Process " << rank << ": Stack Not Empty\n";
             Kostra * first = stack->front->k;
             //do not continue if solution is already smaller
             if (solution != NULL) {
-                cout << "dumping tree";
-                if (first->krok >= solution->krok) {
-                    free(stack->popFront());
+                if (first->krok + 1 >= solution->krok) {
+                    cout << "dumping tree\n";
+                    stack->popFront();
                     continue;
                 }
             }
@@ -150,32 +168,53 @@ void mainCycle() {
                 cout << "Setting solution: " << next->krok << "\n";
                 setSolution(next);
             } else {
-                stack->add(next);
+                //                stack->add(next);
             }
         }
     }
-        cout << "Process " << rank << ": ";
-        stack->print();
-
-    //    cout << "Process " << rank << ": ";
-    //    solutions.print();
 
 
-    cout << "Solution: ";
-    solution->toString();
+    cout << "Process " << rank << ": ";
+    stack->print();
+
+
+
+
 }
 
 int main(int argc, char ** argv) {
     int rank;
-    int graf[8 * 8] = {
-        0, 1, 0, 1, 0, 0, 0, 1, // 1
-        1, 0, 1, 1, 1, 0, 0, 0, // 2
-        0, 1, 0, 0, 1, 1, 0, 0, // 3
-        1, 1, 0, 0, 0, 1, 1, 0, // 4
-        0, 1, 1, 0, 0, 0, 1, 1, // 5
-        0, 0, 1, 1, 0, 0, 1, 0, // 6
-        0, 0, 0, 1, 1, 1, 0, 1, // 7
-        1, 0, 0, 0, 1, 0, 1, 0 // 8
+    int graf[VERTICES * VERTICES] = {
+        0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,
+0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
     };
 
 
@@ -184,10 +223,10 @@ int main(int argc, char ** argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &worldSize);
 
     stack = new LinkedStack<Kostra > ();
-    uzly = new Uzel[8];
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            if (graf[i * 8 + j] == 1) {
+    uzly = new Uzel[VERTICES];
+    for (int i = 0; i < VERTICES; i++) {
+        for (int j = 0; j < VERTICES; j++) {
+            if (graf[i * VERTICES + j] == 1) {
                 uzly[i].hrany.push_back(uzly[j]);
             }
         }

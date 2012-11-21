@@ -26,7 +26,7 @@ public:
     void add(LinkedStack<K>*);
 
     void moveUp();
-
+    void moveUpChildren();
 
     K * next();
     K * popBack();
