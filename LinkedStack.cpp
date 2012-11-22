@@ -52,7 +52,7 @@ template<> void LinkedStack<Kostra>::print() {
 }
 
 template<> bool LinkedStack<Kostra>::isEmpty() {
-    return this->front == NULL;
+    return (this->front == NULL || this->size==0);
 }
 
 template<> void LinkedStack<Kostra>::recalculateMiddle() {

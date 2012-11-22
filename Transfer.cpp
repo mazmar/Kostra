@@ -9,7 +9,7 @@
 #include "LinkedStack.h"
 #include "Kostra.h"
 
-const int GRAF_SIZE = 30;
+const int GRAF_SIZE = 15;
 
 Transfer::Transfer(LinkedStack<Kostra> * split) {
     this->size = (GRAF_SIZE * 3) * split->size + split->size;
