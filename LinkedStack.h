@@ -20,6 +20,7 @@ public:
     int size;
 
     LinkedStack();
+    ~LinkedStack();
 
     void add(Node<K> * x);
     void add(K * x);

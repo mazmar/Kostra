@@ -26,6 +26,7 @@ public:
     void print();
 
     Node(T * k);
+    ~Node();
 };
 
 #endif	/* NODE_H */

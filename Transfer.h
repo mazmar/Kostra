@@ -13,16 +13,19 @@
 #define	TRANSFER_H
 
 extern Uzel * uzly;
+extern const int VERTICES;
 
 class Transfer {
 public:
     int size;
     int stackSize;
-    int * transfer;
+    short * transfer;
 
     Transfer(LinkedStack<Kostra> * split);
-    Transfer(int * transfer, int * size);
+    Transfer(short * transfer, int * size);
     Transfer(int);
+    Transfer();
+    ~Transfer();
 
     LinkedStack<Kostra> * unpack();
 

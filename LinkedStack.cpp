@@ -17,6 +17,18 @@ template<> LinkedStack<Kostra>::LinkedStack() {
     this->back = this->front;
 }
 
+template<> LinkedStack<Kostra>::~LinkedStack() {
+    cout << "deleting stack\n";
+//    if (this->front!=this->back)delete this->back;
+//    delete this->front;
+    this->middle = NULL;
+    this->back = NULL;
+    this->front = NULL;
+    this->size=0;
+    cout << "delete OK\n";
+    
+}
+
 template<> void LinkedStack<Kostra>::add(LinkedStack<Kostra>* stack) {
     if (this->size == 0) {
         this->front = stack->front;
@@ -43,8 +55,8 @@ template<> void LinkedStack<Kostra>::add(Node<Kostra> * x) {
 
 template<> void LinkedStack<Kostra>::print() {
     cout << "Current stack:\n";
-    Node<Kostra> * n = stack->front;
-    while (n != NULL) {
+    Node<Kostra> * n = this->front;
+    while (n != NULL || this->size>0) {
         n->print();
         n = n->next;
     }
@@ -52,7 +64,7 @@ template<> void LinkedStack<Kostra>::print() {
 }
 
 template<> bool LinkedStack<Kostra>::isEmpty() {
-    return (this->front == NULL || this->size==0);
+    return (this->front == NULL || this->size == 0);
 }
 
 template<> void LinkedStack<Kostra>::recalculateMiddle() {
@@ -77,7 +89,7 @@ template<> void LinkedStack<Kostra>::add(Kostra * x) {
 
 template<> void LinkedStack<Kostra>::moveUpChildren() {
     Node<Kostra> * temp = this->front->firstChild;
-    if (temp==NULL) return;
+    if (temp == NULL) return;
     this->front->next = temp;
     temp->prev = this->front;
     this->back = this->front->lastChild;
@@ -93,6 +105,7 @@ template<> void LinkedStack<Kostra>::moveUpChildren() {
 }
 
 template<> void LinkedStack<Kostra>::moveUp() {
+
     Node<Kostra> * temp = this->front;
     if (this->front->next == NULL) {
         this->front = this->front->firstChild;
@@ -108,8 +121,11 @@ template<> void LinkedStack<Kostra>::moveUp() {
         child->parent = temp->parent;
         child = child->next;
     }
-
+    temp->firstChild = NULL;
+    temp->lastChild = NULL;
     this->size += temp->childSize - 1;
+    // smazat to co tem odkazuje
+    //    delete(temp);
 }
 
 template<> Kostra * LinkedStack<Kostra>::popBack() {
@@ -132,13 +148,13 @@ template<> Kostra * LinkedStack<Kostra>::popFront() {
     Node<Kostra> * temp = this->front;
     if (this->size == 1) {
         this->front = NULL;
-        this->back = this->front;
+        this->back = NULL;
     } else {
         this->front = temp->next;
     }
     this->size--;
     Kostra * r = temp->k;
-    delete temp;
+    //    delete temp;
     return r;
 }
 
@@ -165,3 +181,4 @@ template<> Kostra * LinkedStack<Kostra>::next() {
     }
     return kostra;
 }
+

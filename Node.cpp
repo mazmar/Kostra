@@ -9,6 +9,23 @@
 #include "Kostra.h"
 #include <iostream>
 
+
+
+
+//// 100 
+//7 9 12 15 -1
+//0 0 0  0  -1
+//0 1 2  2  -1
+//        
+//        
+//        
+//        //  0  1  2  3  4  5 6  7 8  9 10 11 12 13 14
+//           -1 -1 -1 -1 -1 -1 0 -1 0 -1 -1  0 -1 -1  0
+//           -1 -1 -1 -1 -1 -1 0 -1 1 -1 -1  2 -1 -1  2
+//        
+
+
+
 using namespace std;
 
 template<> Node<Kostra>::Node(Kostra * k) {
@@ -49,6 +66,17 @@ template<> void Node<Kostra>::print() {
         n->print();
         n = n->next;
     }
+}
+
+template<> Node<Kostra>::~Node() {
+    if (this->prev != NULL)this->prev->next = this->next;
+    if (this->next != NULL)this->next->prev = this->prev;
+    this->prev = NULL;
+    this->next = NULL;
+    if (this->firstChild != this->lastChild)
+        delete this->lastChild;
+    delete this->firstChild;
+    this->parent = NULL;
 }
 
 

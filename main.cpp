@@ -49,17 +49,20 @@ int workRequested = 0;
 Kostra * solution = NULL;
 LinkedStack<Kostra> solutions;
 MPI_Status status;
+Transfer * stackTransfer = NULL;
+MPI_Request stackTransferRequest;
 
 int token;
 int tokenColor = BLACK;
 int processColor = WHITE;
+int sendingBuffer = 0;
 
 int endWork = 0;
 
 
 int workRequestDataLength = 10;
 char workRequestData[10] = "More work";
-int emptyBuffer = 1;
+short emptyBuffer = 1;
 
 
 int graf[VERTICES * VERTICES];
@@ -77,35 +80,50 @@ void checkRequests() {
         cout << " Flag:" << flag << "\n";
         if (flag > 0) {
             // prijata zadost o praci
+
+            cout << "Process " << rank << " : Cekam na odeslani predosli spravy\n";
+            if (sendingBuffer) {
+                MPI_Wait(&stackTransferRequest, &status);
+            }
             cout << "Process " << rank << " : Posilam spravu:" << i << "\n";
-            Transfer * transfer = NULL;
             MPI_Recv(workRequestData, workRequestDataLength, MPI_CHAR, i, WORK_REQUEST, MPI_COMM_WORLD, &status);
+            cout << "Process " << rank << " : Prijimam zadost:" << i << "\n";
 
             if (stack == NULL) {
                 stack = new LinkedStack<Kostra > ();
             }
+            if (stackTransfer != NULL) {
+                delete stackTransfer;
+                stackTransfer = NULL;
+            }
+            cout << "Process " << rank << " : Odesilam:" << stack->size << "\n";
 
             if (!stack->isEmpty()) {
-                transfer = new Transfer(stack->divide());
-                MPI_Send(transfer->transfer, transfer->size, MPI_INT, i, WORK_TRANSMIT, MPI_COMM_WORLD);
+                stackTransfer = new Transfer(stack->divide());
+                cout << "Process " << rank << " : Transfer vytvoren:" << stackTransfer->size << "\n";
+
+                MPI_Isend(stackTransfer->transfer, stackTransfer->size, MPI_SHORT, i, WORK_TRANSMIT, MPI_COMM_WORLD, &stackTransferRequest);
+                sendingBuffer = 1;
             } else {
-                MPI_Send(&emptyBuffer, 1, MPI_INT, i, WORK_TRANSMIT, MPI_COMM_WORLD);
+                MPI_Send(&emptyBuffer, 1, MPI_SHORT, i, WORK_TRANSMIT, MPI_COMM_WORLD);
 
             }
+            cout << "Process " << rank << " : Odeslano:" << i << "\n";
+
             //zahravky s peskom
-            if (transfer != NULL && rank > i) {
+            if (stackTransfer != NULL && rank > i) {
                 processColor = BLACK;
             }
-            //MAZU!!!!
-            delete(transfer);
         }
     }
 }
 
 void checkToken() {
-    int process = (rank - 1 + worldSize) % worldSize;
+    int process = ((rank - 1) + worldSize) % worldSize;
     int flag;
     MPI_Iprobe(process, TOKEN, MPI_COMM_WORLD, &flag, &status);
+    cout << "Process " << rank << " : Posloucha peska :" << process << " flag:" << flag << "\n";
+
     if (flag) {
         MPI_Recv(&tokenColor, 1, MPI_INT, process, TOKEN, MPI_COMM_WORLD, &status);
         token = 1;
@@ -121,48 +139,63 @@ void checkToken() {
     if (rank == 0 && token == 1 && tokenColor == WHITE) {
         int end = 1;
         for (int i = 0; i < worldSize; i++) {
+            cout << "Process " << rank << " : Sending KILL\n";
             MPI_Send(&end, 1, MPI_INT, i, END_WORK, MPI_COMM_WORLD);
-            endWork = 1;
-        }
 
+        }
+        endWork = 1;
+    }
+}
+
+void setSolution(Kostra * kostra) {
+    cout << "Process 0 : Setting solution " << kostra->krok << " and deleting stack\n";
+
+    if (solution == NULL || solution->krok > kostra->krok) {
+        solution = kostra;
+        delete stack;
+        stack = new LinkedStack<Kostra>();
     }
 }
 
 void sendSolution() {
-    LinkedStack<Kostra> *tempStack = new LinkedStack<Kostra > ();
-    tempStack->add(solution);
-    Transfer * t = new Transfer(tempStack);
+    cout << "Process 0 : Sending Solutions\n";
+    LinkedStack<Kostra> tempStack;
+    tempStack.add(solution);
+    solution->toString();
+    Transfer * t = new Transfer(&tempStack);
     for (int i = 0; i < worldSize; i++) {
         //neposilej zpravu sam sobe
-        if (i != rank)
-            MPI_Send(t->transfer, t->size, MPI_INT, i, SOLUTION_TRANSMIT, MPI_COMM_WORLD);
+        if (i == rank) continue;
+        MPI_Send(t->transfer, t->size, MPI_SHORT, i, SOLUTION_TRANSMIT, MPI_COMM_WORLD);
     }
-    //MAZU!!!
-    delete tempStack;
+    t->print();
     delete t;
 }
 
 void checkSolution() {
-    cout << "\nProcess " << rank << " : Checking Solutions\n";
-
-    LinkedStack<Kostra> *tempStack;
+    LinkedStack<Kostra> tempStack;
     int flag, testTransferSize;
     for (int i = 0; i < worldSize; i++) {
-        if (i == rank) continue;
+        if (i == rank)continue;
         MPI_Iprobe(i, SOLUTION_TRANSMIT, MPI_COMM_WORLD, &flag, &status);
+        cout << "\nProcess " << rank << " : Checking Solutions from: " << i << "flag:" << flag << "\n";
+
         if (flag) {
-            MPI_Get_count(&status, MPI_INT, &testTransferSize);
+            MPI_Get_count(&status, MPI_SHORT, &testTransferSize);
             Transfer * t = new Transfer(testTransferSize);
-            MPI_Recv(t->transfer, t->size, MPI_INT, MPI_ANY_SOURCE, SOLUTION_TRANSMIT, MPI_COMM_WORLD, &status);
-            tempStack = t->unpack();
-            if (tempStack->front->k->krok < solution->krok)
-                solution = tempStack->front->k;
+            cout << "Prijmam solution o velkosti: " << testTransferSize << "\n";
+            MPI_Recv(t->transfer, testTransferSize, MPI_SHORT, i, SOLUTION_TRANSMIT, MPI_COMM_WORLD, &status);
+            cout << "Prijal sem solution o velkosti: " << testTransferSize << "\n";
 
-            //MAZU!!!
-
+            tempStack = *t->unpack();
+            if (solution == NULL || tempStack.front->k->krok < solution->krok)
+                setSolution(tempStack.front->k);
+            delete t;
         }
-
+        
     }
+    cout << "\nProcess " << rank << " : Exiting Solutions: ";
+
 }
 
 void checkEnd() {
@@ -172,9 +205,9 @@ void checkEnd() {
 void checkMsgs() {
     if (requestCount >= REQUESTTRESHOLD) {
         checkEnd();
+        checkToken();
         checkRequests();
         checkSolution();
-        checkToken();
         // check token and solution
         requestCount = 0;
     }
@@ -194,7 +227,7 @@ void requestWork() {
 
     }
     processColor = WHITE;
-    cout << "Process " << rank << " : Request Work from :" << reqRank << " a mam peska:"<< token << "\n";
+    cout << "Process " << rank << " : Request Work from :" << reqRank << " a mam peska:" << token << "\n";
 
     MPI_Send(&workRequestData, workRequestDataLength, MPI_CHAR, reqRank, WORK_REQUEST, MPI_COMM_WORLD);
 }
@@ -203,45 +236,22 @@ bool checkWork() {
     int flag;
 
     MPI_Iprobe(reqRank, WORK_TRANSMIT, MPI_COMM_WORLD, &flag, &status);
+    cout << " Flag:" << flag << "\n";
     if (flag) {
         int testTransferSize;
-        MPI_Get_count(&status, MPI_INT, &testTransferSize);
+        MPI_Get_count(&status, MPI_SHORT, &testTransferSize);
 
         cout << "\nTransfer Size: " << testTransferSize << "\n";
         if (testTransferSize == 1)return false;
         Transfer * transfer = new Transfer(testTransferSize);
 
-        MPI_Recv(transfer->transfer, testTransferSize, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+        MPI_Recv(transfer->transfer, testTransferSize, MPI_SHORT, reqRank, WORK_TRANSMIT, MPI_COMM_WORLD, &status);
+        cout << "Process " << rank << " Prijal spravu o velkosti:" << testTransferSize << "\n";
+
         stack->add(transfer->unpack());
         // free(transfer);
     }
     return flag == 0;
-}
-
-void freeStack() {
-    Node<Kostra> * n = stack->front;
-    while (n != NULL) {
-        if (n->k->krok + 1 >= solution->krok) {
-            stack->popFront();
-            n = stack->front;
-        } else {
-            n = n->next;
-        }
-    }
-}
-
-void setSolution(Kostra * kostra) {
-    if (solution == NULL) {
-        solution = kostra;
-        freeStack();
-    } else {
-        if (solution->krok > kostra->krok) {
-            solution = kostra;
-            freeStack();
-        } else {
-            delete(kostra);
-        }
-    }
 }
 
 void mainCycle() {
@@ -251,14 +261,14 @@ void mainCycle() {
         if (endWork)break;
 
         if (workRequested) {
-            cout << "Process " << rank << ": Checking Work Transmits from: " << reqRank << "\n";
+            cout << "Process " << rank << ": Checking Work Transmits from: " << reqRank;
             workRequested = checkWork();
             if (workRequested) {
                 continue;
             }
         }
 
-        if (stack->isEmpty()) {
+        if (stack == NULL || stack->isEmpty()) {
             reqRank = (reqRank + 1) % worldSize;
             if (rank == reqRank) reqRank = (reqRank + 1) % worldSize;
             requestWork();
@@ -269,19 +279,22 @@ void mainCycle() {
         } else {
             Kostra * first = stack->front->k;
             //do not continue if solution is already smaller
-            
+
             Kostra * next = stack->next();
-            //setSolution
+            //            setSolution()
             if (next->kostra.size() == VERTICES) {
-                cout << "Setting solution: " << next->krok << "\n";
-                setSolution(next);
+                if (solution == NULL || solution->krok > next->krok) {
+                    cout << "Setting solution: " << next->krok << "\n";
+                    setSolution(next);
+                    sendSolution();
+                }
             }
         }
     }
 
 
     cout << "Process " << rank << ": ";
-    stack->print();
+//    if (stack != NULL)stack->print();
     if (solution != NULL) {
         cout << "Process " << rank << ": Solution ";
         solution->toString();
@@ -326,7 +339,7 @@ int main(int argc, char ** argv) {
             }
         }
     }
-
+    //    
     if (rank == 0) {
         // predist pytaniu sameho seba
         reqRank++;
@@ -337,11 +350,34 @@ int main(int argc, char ** argv) {
         Kostra * k = new Kostra(kostra);
         stack->add(k);
     }
+    // TEST
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    stack->next();
+    //    //    stack->print();
+
+
     token = (rank == 0) ? 1 : 0;
     MPI_Barrier(MPI_COMM_WORLD);
     cout << "Process " << rank << " : Starting cycle\n";
     mainCycle();
 
+
+    cout << "Process " << rank << ": Ukoncen???";
     MPI_Finalize();
     return 0;
 }
@@ -429,47 +465,50 @@ int main(int argc, char ** argv) {
 //        n->k->toString();
 //        n = n->next;
 //    }
-//
-//
+//    //
+//    //
 //    LinkedStack<Kostra> * second = stack->divide();
-//
-//
+//    //
+//    //
 //    cout << "\n------Komplet Stack after Split----------------\n";
 //    n = stack->front;
 //    while (n != NULL) {
 //        n->k->toString();
 //        n = n->next;
 //    }
-//
+//    //
 //    cout << "\n------Komplet Second after Split----------------\n";
 //    n = second->front;
 //    while (n != NULL) {
 //        n->k->toString();
 //        n = n->next;
 //    }
+//    //
 //
+//
+//    //    Transfer * t = new Transfer(stack->divide());
 //
 //    Transfer t(second);
 //    t.print();
 //    cout << "\n------SEND MPI----------------\n";
-//    MPI_Send(t.transfer, t.size, MPI_INT, 0, 0, MPI_COMM_WORLD);
-//
-//
+//    MPI_Send(t.transfer, t.size, MPI_SHORT, 0, 0, MPI_COMM_WORLD);
+//    //
+//    //
 //    int testTransferSize;
 //    int flag;
 //    MPI_Iprobe(0, MPI_ANY_SOURCE, MPI_COMM_WORLD, &flag, &status);
-//    MPI_Get_count(&status, MPI_INT, &testTransferSize);
-//
+//    MPI_Get_count(&status, MPI_SHORT, &testTransferSize);
+//    //
 //    cout << "\nTransfer Size: " << testTransferSize << "\n";
-//    int * testTransfer = new int[testTransferSize];
-//
-//    MPI_Recv(testTransfer, testTransferSize, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+//    //    short * testTransfer = new short[testTransferSize];
+//    Transfer* newTransfer = new Transfer(testTransferSize);
+//    MPI_Recv(newTransfer->transfer, testTransferSize, MPI_SHORT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
 //    delete second;
+//    //
 //
-//    Transfer newTransfer(testTransfer, &testTransferSize);
-//
+//    //
 //    cout << "\n------TransferedStack----------------\n";
-//    LinkedStack<Kostra> * trasferedStack = newTransfer.unpack();
+//    LinkedStack<Kostra> * trasferedStack = newTransfer->unpack();
 //    n = trasferedStack->front;
 //    while (n != NULL) {
 //        n->k->toString();
@@ -544,3 +583,38 @@ int main(int argc, char ** argv) {
 //
 //
 //}
+//
+//    cout << "TEST ANYSEK\n";
+//    
+//    stack->add(k);
+//    Node<Kostra> * temp = stack->front;
+//    cout << "\n\n-----Adresa" << stack->front << "\n\n";
+//    stack->next();
+//    stack->next();
+//    stack->next();
+//    stack->next();
+//    stack->next();
+//    stack->next();
+//    stack->next();
+//    stack->print();
+//     stack->popFront();
+//    
+////     cout << "\n\n\n\nTEST ANYSEK\n";
+//////     cout << "\n\n-----Pocet Deti: " << temp->id << "\n\n";
+////    stack->print();
+////    Node<Kostra> * t = new Node(k);
+////    delete();
+////    k->toString();
+//    stack->print();
+//
+//
+//    MPI_Finalize();
+//    return 0;
+//}
+
+
+
+
+
+
+
