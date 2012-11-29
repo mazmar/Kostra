@@ -46,7 +46,7 @@ void Kostra::remove(Uzel x) {
 }
 
 void Kostra::toString() {
-    cout << "\nKostra  krokov " << krok << "\n";
+    file << "\nKostra  krokov " << krok << "\n";
     for (vector<Uzel>::iterator i = kostra.begin(); i != kostra.end(); i++) {
         i->toString();
     }
@@ -57,30 +57,32 @@ void Kostra::push(Uzel * u){
     remove();
 }
 
-void Kostra::add(Uzel x) {
+void Kostra::add(Uzel x, int k) {
     Uzel u = uzly[x.name];
-    u.pridane = krok;
+    u.pridane = k;
     this->kostra.push_back(u);
     remove();
 }
 
 Kostra * Kostra::next() {
-    //        cout << "\n\n---------\n" <<"pred\n";
+    //        file << "\n\n---------\n" <<"pred\n";
     //        toString();
     vector<Uzel> temp = kostra;
     if (!this->hasNext) return NULL;
     Kostra * k = new Kostra(kostra, krok, output);
     k->krok++;
+    int x = k->kostra.back().pridane+1;
     for (vector<Uzel>::iterator i = kostra.begin(); i != kostra.end(); i++) {
-        //            cout << "Removing for "; i->toString(); cout << "\n";
+        //            file << "Removing for "; i->toString(); file << "\n";
         try {
             Uzel u = i->next();
-            k->add(u);
+            k->add(u, x);
             k->output += convertInt(u.name + 1);
             remove(u);
         } catch (int e) {
             k->output += " ";
         }
+        x++;
     }
     k->output += "\n";
     kostra = temp;

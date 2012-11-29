@@ -57,9 +57,9 @@ template<> void Node<Kostra>::addChild(Kostra * kostra) {
 }
 
 template<> void Node<Kostra>::print() {
-    cout << "Node id: " << this->id;
-    if (this->parent != NULL)cout << " parent: " << this->parent->id;
-    cout << " children: " << this->childSize;
+    file << "Node id: " << this->id;
+    if (this->parent != NULL)file << " parent: " << this->parent->id;
+    file << " children: " << this->childSize;
     this->k->toString();
     Node * n = this->firstChild;
     while (n != NULL) {

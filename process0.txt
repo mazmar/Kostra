@@ -1,0 +1,1955 @@
+process0.txtProcess 0 : Starting cycle
+Process 0: Stack not Empty: TEST 0x7fc570c35040nok
+Process 0: Stack not Empty: TEST 0x7fc570c3a4d0nok
+Process 0: Stack not Empty: TEST 0move Up0  2
+nextNULL0x7fc570c3a370
+Process 0: Stack not Empty: TEST 0x7fc570c3a5b0nok
+Process 0: Stack not Empty: TEST 0x7fc570c3a570nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3a6b0  2
+NormalMoveUp0x7fc570c3a410
+Process 0: Stack not Empty: TEST 0x7fc570c3bac0nok
+Process 0: Stack not Empty: TEST 0x7fc570c3cc10nok
+Process 0: Stack not Empty: TEST 0x7fc570c3cfe0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3a6f0  3
+NormalMoveUp0x7fc570c3a6b0
+Process 0: Stack not Empty: TEST 0x7fc570c3b230nok
+Process 0: Stack not Empty: TEST 0x7fc570c40700nok
+Process 0: Stack not Empty: TEST 0x7fc570c3d560nok
+Process 0: Stack not Empty: TEST 0x7fc570c41f20nok
+Process 0: Stack not Empty: TEST 0x7fc570c42400nok
+Process 0: Stack not Empty: TEST 0x7fc570c430a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c43b40nok
+Process 0: Stack not Empty: TEST 0x7fc570c44bf0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3a5f0  8
+NormalMoveUp0x7fc570c3a6f0
+Process 0: Stack not Empty: TEST 0x7fc570c3c740nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c40680nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3aea0  2
+NormalMoveUp0x7fc570c3a5f0
+Process 0: Stack not Empty: TEST 0x7fc570c3beb0nok
+Process 0: Stack not Empty: TEST 0x7fc570c466b0nok
+Process 0: Stack not Empty: TEST 0x7fc570c3c030nok
+Process 0: Stack not Empty: TEST 0x7fc570c3bd90nok
+Process 0: Stack not Empty: TEST 0x7fc570c3b280nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3aac0  5
+NormalMoveUp0x7fc570c3aea0
+Process 0: Stack not Empty: TEST 0x7fc570c45a30nok
+Process 0: Stack not Empty: TEST 0x7fc570c3f4e0nok
+Process 0: Stack not Empty: TEST 0x7fc570c3a760nok
+Process 0: Stack not Empty: TEST 0x7fc570c451a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c4f380nok
+Process 0: Stack not Empty: TEST 0x7fc570c4a080nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3b1f0  6
+NormalMoveUp0x7fc570c3aac0
+Process 0: Stack not Empty: TEST 0x7fc570c50900nok
+Process 0: Stack not Empty: TEST 0x7fc570c3caf0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c40b10  2
+NormalMoveUp0x7fc570c3b1f0
+Process 0: Stack not Empty: TEST 0x7fc570c55bc0nok
+Process 0: Stack not Empty: TEST 0x7fc570c56590nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c58f90nok
+Process 0: Stack not Empty: TEST 0x7fc570c59db0nok
+Process 0: Stack not Empty: TEST 0x7fc570c5b060nok
+Process 0: Stack not Empty: TEST 0x7fc570c5a940nok
+Process 0: Stack not Empty: TEST 0x7fc570c5dca0nok
+Process 0: Stack not Empty: TEST 0x7fc570c5ad40nok
+Process 0: Stack not Empty: TEST 0x7fc570c5fa50nok
+Process 0: Stack not Empty: TEST 0x7fc570c61e40nok
+Process 0: Stack not Empty: TEST 0x7fc570c62140nok
+Process 0: Stack not Empty: TEST 0x7fc570c5dbb0nok
+Process 0: Stack not Empty: TEST 0x7fc570c5f510nok
+Process 0: Stack not Empty: TEST 0x7fc570c5d9a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c64e60nok
+Process 0: Stack not Empty: TEST 0x7fc570c68f80nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c40b50  16
+NormalMoveUp0x7fc570c40b10
+Process 0: Stack not Empty: TEST 0x7fc570c6a030nok
+Process 0: Stack not Empty: TEST 0x7fc570c69b00nok
+Process 0: Stack not Empty: TEST 0x7fc570c6a880nok
+Process 0: Stack not Empty: TEST 0x7fc570c6abc0nok
+Process 0: Stack not Empty: TEST 0x7fc570c6b260nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c6bb50nok
+Process 0: Stack not Empty: TEST 0x7fc570c6bc50nok
+Process 0: Stack not Empty: TEST 0x7fc570c6d350nok
+Process 0: Stack not Empty: TEST 0x7fc570c6ef90nok
+Process 0: Stack not Empty: TEST 0x7fc570c6fec0nok
+Process 0: Stack not Empty: TEST 0x7fc570c708c0nok
+Process 0: Stack not Empty: TEST 0x7fc570c712f0nok
+Process 0: Stack not Empty: TEST 0x7fc570c71b40nok
+Process 0: Stack not Empty: TEST 0x7fc570c6dea0nok
+Process 0: Stack not Empty: TEST 0x7fc570c73280nok
+Process 0: Stack not Empty: TEST 0x7fc570c73e30nok
+Process 0: Stack not Empty: TEST 0x7fc570c74950nok
+Process 0: Stack not Empty: TEST 0x7fc570c6d8a0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3f830  18
+NormalMoveUp0x7fc570c40b50
+Process 0: Stack not Empty: TEST 0x7fc570c76d90nok
+Process 0: Stack not Empty: TEST 0x7fc570c77f90nok
+Process 0: Stack not Empty: TEST 0x7fc570c79670nok
+Process 0: Stack not Empty: TEST 0x7fc570c7a710nok
+Process 0: Stack not Empty: TEST 0x7fc570c79a70nok
+Process 0: Stack not Empty: TEST 0x7fc570c7a380nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c773e0nok
+Process 0: Stack not Empty: TEST 0x7fc570c7c960nok
+Process 0: Stack not Empty: TEST 0x7fc570c7c6f0nok
+Process 0: Stack not Empty: TEST 0x7fc570c7f090nok
+Process 0: Stack not Empty: TEST 0x7fc570c7f370nok
+Process 0: Stack not Empty: TEST 0x7fc570c82270nok
+Process 0: Stack not Empty: TEST 0x7fc570c7f790nok
+Process 0: Stack not Empty: TEST 0x7fc570c83e20nok
+Process 0: Stack not Empty: TEST 0x7fc570c84d20nok
+Process 0: Stack not Empty: TEST 0x7fc570c859a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c82d80nok
+Process 0: Stack not Empty: TEST 0x7fc570c79db0nok
+Process 0: Stack not Empty: TEST 0x7fc570c87ca0nok
+Process 0: Stack not Empty: TEST 0x7fc570c87af0nok
+Process 0: Stack not Empty: TEST 0x7fc570c864f0nok
+Process 0: Stack not Empty: TEST 0x7fc570c8a2d0nok
+Process 0: Stack not Empty: TEST 0x7fc570c8cb30nok
+Process 0: Stack not Empty: TEST 0x7fc570c8dd80nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3f870  24
+NormalMoveUp0x7fc570c3f830
+Process 0: Stack not Empty: TEST 0x7fc570c7f9d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c8f3b0nok
+Process 0: Stack not Empty: TEST 0x7fc570c90340nok
+Process 0: Stack not Empty: TEST 0x7fc570c41c80nok
+Process 0: Stack not Empty: TEST 0x7fc570c8c9e0nok
+Process 0: Stack not Empty: TEST 0x7fc570c8c770nok
+Process 0: Stack not Empty: TEST 0x7fc570c92770nok
+Process 0: Stack not Empty: TEST 0x7fc570c94cc0nok
+Process 0: Stack not Empty: TEST 0x7fc570c929b0nok
+Process 0: Stack not Empty: TEST 0x7fc570c8ef20nok
+Process 0: Stack not Empty: TEST 0x7fc570c959e0nok
+Process 0: Stack not Empty: TEST 0x7fc570c94ac0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3bcd0  12
+NormalMoveUp0x7fc570c3f870
+Process 0: Stack not Empty: TEST 0x7fc570c993d0nok
+Process 0: Stack not Empty: TEST 0x7fc570c41f60nok
+Process 0: Stack not Empty: TEST 0x7fc570c9b900nok
+Process 0: Stack not Empty: TEST 0x7fc570c9c290nok
+Process 0: Stack not Empty: TEST 0x7fc570c9c0b0nok
+Process 0: Stack not Empty: TEST 0x7fc570c9ba30nok
+Process 0: Stack not Empty: TEST 0x7fc570c9d900nok
+Process 0: Stack not Empty: TEST 0x7fc570c9f740nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570c9f560nok
+Process 0: Stack not Empty: TEST 0x7fc570ca3c00nok
+Process 0: Stack not Empty: TEST 0x7fc570ca2f70nok
+Process 0: Stack not Empty: TEST 0x7fc570ca3580nok
+Process 0: Stack not Empty: TEST 0x7fc570ca5ba0nok
+Process 0: Stack not Empty: TEST 0x7fc570ca25f0nok
+Process 0: Stack not Empty: TEST 0x7fc570ca89d0nok
+Process 0: Stack not Empty: TEST 0x7fc570ca9550nok
+Process 0: Stack not Empty: TEST 0x7fc570ca5130nok
+Process 0: Stack not Empty: TEST 0x7fc570ca64a0nok
+Process 0: Stack not Empty: TEST 0x7fc570cab8b0nok
+Process 0: Stack not Empty: TEST 0x7fc570caeb50nok
+Process 0: Stack not Empty: TEST 0x7fc570cafa60nok
+Process 0: Stack not Empty: TEST 0x7fc570cafc80nok
+Process 0: Stack not Empty: TEST 0x7fc570caf4b0nok
+Process 0: Stack not Empty: TEST 0x7fc570cb0ce0nok
+Process 0: Stack not Empty: TEST 0x7fc570cb0250nok
+Process 0: Stack not Empty: TEST 0x7fc570cb52d0nok
+Process 0: Stack not Empty: TEST 0x7fc570cb6b50nok
+Process 0: Stack not Empty: TEST 0x7fc570cb5310nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570cb64a0nok
+Process 0: Stack not Empty: TEST 0x7fc570cb6880nok
+Process 0: Stack not Empty: TEST 0x7fc570cb9a30nok
+Process 0: Stack not Empty: TEST 0x7fc570cba880nok
+Process 0: Stack not Empty: TEST 0x7fc570cb76a0nok
+Process 0: Stack not Empty: TEST 0x7fc570cbaee0nok
+Process 0: Stack not Empty: TEST 0x7fc570cbd2b0nok
+Process 0: Stack not Empty: TEST 0x7fc570cbd100nok
+Process 0: Stack not Empty: TEST 0x7fc570cbc620nok
+Process 0: Stack not Empty: TEST 0x7fc570cbed50nok
+Process 0: Stack not Empty: TEST 0x7fc570cb8c90nok
+Process 0: Stack not Empty: TEST 0x7fc570cc0340nok
+Process 0: Stack not Empty: TEST 0x7fc570cc3a40nok
+Process 0: Stack not Empty: TEST 0x7fc570cc3f60nok
+Process 0: Stack not Empty: TEST 0x7fc570cc1550nok
+Process 0: Stack not Empty: TEST 0x7fc570cc0ba0nok
+Process 0: Stack not Empty: TEST 0x7fc570cc5a70nok
+Process 0: Stack not Empty: TEST 0x7fc570cc6c40nok
+Process 0: Stack not Empty: TEST 0x7fc570cc8f40nok
+Process 0: Stack not Empty: TEST 0x7fc570ccc8e0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570cc9330nok
+Process 0: Stack not Empty: TEST 0x7fc570ccaf50nok
+Process 0: Stack not Empty: TEST 0x7fc570ccb9e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ccf8e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ccefe0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd1b60nok
+Process 0: Stack not Empty: TEST 0x7fc570cd2c40nok
+Process 0: Stack not Empty: TEST 0x7fc570cce4a0nok
+Process 0: Stack not Empty: TEST 0x7fc570cce7b0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd4240nok
+Process 0: Stack not Empty: TEST 0x7fc570cd47d0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd5db0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd9350nok
+Process 0: Stack not Empty: TEST 0x7fc570cd96f0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd75a0nok
+Process 0: Stack not Empty: TEST 0x7fc570cd9bb0nok
+Process 0: Stack not Empty: TEST 0x7fc570cdba00nok
+Process 0: Stack not Empty: TEST 0x7fc570cd87f0nok
+Process 0: Stack not Empty: TEST 0x7fc570cdeca0nok
+Process 0: Stack not Empty: TEST 0x7fc570cde280nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570cdd6e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ce52d0nok
+Process 0: Stack not Empty: TEST 0x7fc570ce5990nok
+Process 0: Stack not Empty: TEST 0x7fc570ce1b00nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3f7a0  72
+NormalMoveUp0x7fc570c3bcd0
+Process 0: Stack not Empty: TEST 0x7fc570ce5400nok
+Process 0: Stack not Empty: TEST 0x7fc570ce8240nok
+Process 0: Stack not Empty: TEST 0x7fc570cea460nok
+Process 0: Stack not Empty: TEST 0x7fc570ceaf50nok
+Process 0: Stack not Empty: TEST 0x7fc570ced610nok
+Process 0: Stack not Empty: TEST 0x7fc570ced770nok
+Process 0: Stack not Empty: TEST 0x7fc570ced4c0nok
+Process 0: Stack not Empty: TEST 0x7fc570ced910nok
+Process 0: Stack not Empty: TEST 0x7fc570cf2860nok
+Process 0: Stack not Empty: TEST 0x7fc570cf4900nok
+Process 0: Stack not Empty: TEST 0x7fc570cf4f30nok
+Process 0: Stack not Empty: TEST 0x7fc570cf7130nok
+Process 0: Stack not Empty: TEST 0x7fc570cf4940nok
+Process 0: Stack not Empty: TEST 0x7fc570cf6920nok
+Process 0: Stack not Empty: TEST 0x7fc570e00750nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3f7e0  15
+NormalMoveUp0x7fc570c3f7a0
+Process 0: Stack not Empty: TEST 0x7fc570e016b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e02fd0nok
+Process 0: Stack not Empty: TEST 0x7fc570c455b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e02dc0nok
+Process 0: Stack not Empty: TEST 0x7fc570e02a00nok
+Process 0: Stack not Empty: TEST 0x7fc570e05340nok
+Process 0: Stack not Empty: TEST 0x7fc570e05aa0nok
+Process 0: Stack not Empty: TEST 0x7fc570e05950nok
+Process 0: Stack not Empty: TEST 0x7fc570e04350nok
+Process 0: Stack not Empty: TEST 0x7fc570e07a60nok
+Process 0: Stack not Empty: TEST 0x7fc570e04390nok
+Process 0: Stack not Empty: TEST 0x7fc570e0a100nok
+Process 0: Stack not Empty: TEST 0x7fc570e08700nok
+Process 0: Stack not Empty: TEST 0x7fc570e094c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e0b3d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e0a8c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e0c3d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e0c830nok
+Process 0: Stack not Empty: TEST 0x7fc570e105f0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e0fe50nok
+Process 0: Stack not Empty: TEST 0x7fc570e120d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e13360nok
+Process 0: Stack not Empty: TEST 0x7fc570e140f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e15720nok
+Process 0: Stack not Empty: TEST 0x7fc570e13ee0nok
+Process 0: Stack not Empty: TEST 0x7fc570e15a60nok
+Process 0: Stack not Empty: TEST 0x7fc570e14b50nok
+Process 0: Stack not Empty: TEST 0x7fc570e18b40nok
+Process 0: Stack not Empty: TEST 0x7fc570e13a50nok
+Process 0: Stack not Empty: TEST 0x7fc570e162f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e13e20nok
+Process 0: Stack not Empty: TEST 0x7fc570e19ce0nok
+Process 0: Stack not Empty: TEST 0x7fc570e1a1d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e14f80nok
+Process 0: Stack not Empty: TEST 0x7fc570e1bf60nok
+Process 0: Stack not Empty: TEST 0x7fc570e1ab60nok
+Process 0: Stack not Empty: TEST 0x7fc570e1d400nok
+Process 0: Stack not Empty: TEST 0x7fc570e1b3c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e1e510nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e1dc10nok
+Process 0: Stack not Empty: TEST 0x7fc570e1c320nok
+Process 0: Stack not Empty: TEST 0x7fc570e20b50nok
+Process 0: Stack not Empty: TEST 0x7fc570e22420nok
+Process 0: Stack not Empty: TEST 0x7fc570e20da0nok
+Process 0: Stack not Empty: TEST 0x7fc570e24e80nok
+Process 0: Stack not Empty: TEST 0x7fc570e255a0nok
+Process 0: Stack not Empty: TEST 0x7fc570e26f50nok
+Process 0: Stack not Empty: TEST 0x7fc570e28840nok
+Process 0: Stack not Empty: TEST 0x7fc570e29640nok
+Process 0: Stack not Empty: TEST 0x7fc570e28e90nok
+Process 0: Stack not Empty: TEST 0x7fc570e29d40nok
+Process 0: Stack not Empty: TEST 0x7fc570e2b1d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2af90nok
+Process 0: Stack not Empty: TEST 0x7fc570e2a9c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2cfa0nok
+Process 0: Stack not Empty: TEST 0x7fc570e27770nok
+Process 0: Stack not Empty: TEST 0x7fc570e2a7b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2eaa0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2e260nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e2d7c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2d8c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e2eba0nok
+Process 0: Stack not Empty: TEST 0x7fc570e32520nok
+Process 0: Stack not Empty: TEST 0x7fc570e33880nok
+Process 0: Stack not Empty: TEST 0x7fc570e34480nok
+Process 0: Stack not Empty: TEST 0x7fc570e34820nok
+Process 0: Stack not Empty: TEST 0x7fc570e31d10nok
+Process 0: Stack not Empty: TEST 0x7fc570e35fa0nok
+Process 0: Stack not Empty: TEST 0x7fc570e337f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e399c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e368c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e3c820nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c40ab0  72
+NormalMoveUp0x7fc570c3f7e0
+Process 0: Stack not Empty: TEST 0x7fc570e390c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e3ec40nok
+Process 0: Stack not Empty: TEST 0x7fc570e3fd70nok
+Process 0: Stack not Empty: TEST 0x7fc570e40e00nok
+Process 0: Stack not Empty: TEST 0x7fc570e42860nok
+Process 0: Stack not Empty: TEST 0x7fc570e43b30nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e41170nok
+Process 0: Stack not Empty: TEST 0x7fc570e3ddd0nok
+Process 0: Stack not Empty: TEST 0x7fc570e46b00nok
+Process 0: Stack not Empty: TEST 0x7fc570e48510nok
+Process 0: Stack not Empty: TEST 0x7fc570e48a30nok
+Process 0: Stack not Empty: TEST 0x7fc570e49ae0nok
+Process 0: Stack not Empty: TEST 0x7fc570e45830nok
+Process 0: Stack not Empty: TEST 0x7fc570e4b600nok
+Process 0: Stack not Empty: TEST 0x7fc570e4b700nok
+Process 0: Stack not Empty: TEST 0x7fc570e4d410nok
+Process 0: Stack not Empty: TEST 0x7fc570e4dab0nok
+Process 0: Stack not Empty: TEST 0x7fc570e4ef60nok
+Process 0: Stack not Empty: TEST 0x7fc570e4e6c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e4eba0nok
+Process 0: Stack not Empty: TEST 0x7fc570e51850nok
+Process 0: Stack not Empty: TEST 0x7fc570e537f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e54370nok
+Process 0: Stack not Empty: TEST 0x7fc570e54a00nok
+Process 0: Stack not Empty: TEST 0x7fc570e55980nok
+Process 0: Stack not Empty: TEST 0x7fc570e57610nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e59cc0nok
+Process 0: Stack not Empty: TEST 0x7fc570e5a270nok
+Process 0: Stack not Empty: TEST 0x7fc570e57830nok
+Process 0: Stack not Empty: TEST 0x7fc570e59220nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c412c0  30
+NormalMoveUp0x7fc570c40ab0
+Process 0: Stack not Empty: TEST 0x7fc570e5ee10nok
+Process 0: Stack not Empty: TEST 0x7fc570e59540nok
+Process 0: Stack not Empty: TEST 0x7fc570e60bd0nok
+Process 0: Stack not Empty: TEST 0x7fc570e5edb0nok
+Process 0: Stack not Empty: TEST 0x7fc570e5f4a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c44db0nok
+Process 0: Stack not Empty: TEST 0x7fc570e64bf0nok
+Process 0: Stack not Empty: TEST 0x7fc570e656d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e65520nok
+Process 0: Stack not Empty: TEST 0x7fc570e63450nok
+Process 0: Stack not Empty: TEST 0x7fc570e67c80nok
+Process 0: Stack not Empty: TEST 0x7fc570e69bd0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3b910  12
+NormalMoveUp0x7fc570c412c0
+Process 0: Stack not Empty: TEST 0x7fc570e6acb0nok
+Process 0: Stack not Empty: TEST 0x7fc570e65e10nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e64250nok
+Process 0: Stack not Empty: TEST 0x7fc570c47620nok
+Process 0: Stack not Empty: TEST 0x7fc570c47470nok
+Process 0: Stack not Empty: TEST 0x7fc570e6a250nok
+Process 0: Stack not Empty: TEST 0x7fc570e6eac0nok
+Process 0: Stack not Empty: TEST 0x7fc570c47380nok
+Process 0: Stack not Empty: TEST 0x7fc570e701b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e72940nok
+Process 0: Stack not Empty: TEST 0x7fc570e70340nok
+Process 0: Stack not Empty: TEST 0x7fc570e73fb0nok
+Process 0: Stack not Empty: TEST 0x7fc570e75600nok
+Process 0: Stack not Empty: TEST 0x7fc570e70a60nok
+Process 0: Stack not Empty: TEST 0x7fc570e77af0nok
+Process 0: Stack not Empty: TEST 0x7fc570e76350nok
+Process 0: Stack not Empty: TEST 0x7fc570e78990nok
+Process 0: Stack not Empty: TEST 0x7fc570e7a8e0nok
+Process 0: Stack not Empty: TEST 0x7fc570e7bae0nok
+Process 0: Stack not Empty: TEST 0x7fc570e7b900nok
+Process 0: Stack not Empty: TEST 0x7fc570e709d0nok
+Process 0: Stack not Empty: TEST 0x7fc570e7e390nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e7d010nok
+Process 0: Stack not Empty: TEST 0x7fc570e7f110nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3aa00  24
+NormalMoveUp0x7fc570c3b910
+Process 0: Stack not Empty: TEST 0x7fc570e7ca90nok
+Process 0: Stack not Empty: TEST 0x7fc570e83580nok
+Process 0: Stack not Empty: TEST 0x7fc570e818b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e84bf0nok
+Process 0: Stack not Empty: TEST 0x7fc570e85320nok
+Process 0: Stack not Empty: TEST 0x7fc570e85200nok
+Process 0: Stack not Empty: TEST 0x7fc570e83430nok
+Process 0: Stack not Empty: TEST 0x7fc570e84ae0nok
+Process 0: Stack not Empty: TEST 0x7fc570e865f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e86c90nok
+Process 0: Stack not Empty: TEST 0x7fc570e873f0nok
+Process 0: Stack not Empty: TEST 0x7fc570e88240nok
+Process 0: Stack not Empty: TEST 0x7fc570e879a0nok
+Process 0: Stack not Empty: TEST 0x7fc570e86b10nok
+Process 0: Stack not Empty: TEST 0x7fc570e88d50nok
+Process 0: Stack not Empty: TEST 0x7fc570e89b80nok
+Process 0: Stack not Empty: TEST 0x7fc570e8ade0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e8bb90nok
+Process 0: Stack not Empty: TEST 0x7fc570e89100nok
+Process 0: Stack not Empty: TEST 0x7fc570e8bf20nok
+Process 0: Stack not Empty: TEST 0x7fc570e8cc40nok
+Process 0: Stack not Empty: TEST 0x7fc570e8cdd0nok
+Process 0: Stack not Empty: TEST 0x7fc570e8e630nok
+Process 0: Stack not Empty: TEST 0x7fc570e8e910nok
+Process 0: Stack not Empty: TEST 0x7fc570e8f5b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e8c290nok
+Process 0: Stack not Empty: TEST 0x7fc570e8e7c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e8fd60nok
+Process 0: Stack not Empty: TEST 0x7fc570e92c40nok
+Process 0: Stack not Empty: TEST 0x7fc570e94320nok
+Process 0: Stack not Empty: TEST 0x7fc570e949b0nok
+Process 0: Stack not Empty: TEST 0x7fc570e98700nok
+Process 0: Stack not Empty: TEST 0x7fc570e98f10nok
+Process 0: Stack not Empty: TEST 0x7fc570e99250nok
+Process 0: Stack not Empty: TEST 0x7fc570e997a0nok
+Process 0: Stack not Empty: TEST 0x7fc570e97590nok
+Process 0: Stack not Empty: TEST 0x7fc570e97a40nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570e9aef0nok
+Process 0: Stack not Empty: TEST 0x7fc570e9b460nok
+Process 0: Stack not Empty: TEST 0x7fc570e9b4a0nok
+Process 0: Stack not Empty: TEST 0x7fc570e9cec0nok
+Process 0: Stack not Empty: TEST 0x7fc570e9eeb0nok
+Process 0: Stack not Empty: TEST 0x7fc570e9f250nok
+Process 0: Stack not Empty: TEST 0x7fc570e9f1f0nok
+Process 0: Stack not Empty: TEST 0x7fc570ea06c0nok
+Process 0: Stack not Empty: TEST 0x7fc570e9ddd0nok
+Process 0: Stack not Empty: TEST 0x7fc570ea1070nok
+Process 0: Stack not Empty: TEST 0x7fc570ea2510nok
+Process 0: Stack not Empty: TEST 0x7fc570ea2b40nok
+Process 0: Stack not Empty: TEST 0x7fc570ea0f50nok
+Process 0: Stack not Empty: TEST 0x7fc570ea33f0nok
+Process 0: Stack not Empty: TEST 0x7fc570ea4d90nok
+Process 0: Stack not Empty: TEST 0x7fc570ea6710nok
+Process 0: Stack not Empty: TEST 0x7fc570ea7460nok
+Process 0: Stack not Empty: TEST 0x7fc570ea8fd0nok
+Process 0: Stack not Empty: TEST 0x7fc570ea9c20nok
+Process 0: Stack not Empty: TEST 0x7fc570eabcc0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570eac650nok
+Process 0: Stack not Empty: TEST 0x7fc570eac750nok
+Process 0: Stack not Empty: TEST 0x7fc570ead9d0nok
+Process 0: Stack not Empty: TEST 0x7fc570eafbc0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb0d30nok
+Process 0: Stack not Empty: TEST 0x7fc570eb2080nok
+Process 0: Stack not Empty: TEST 0x7fc570eb32b0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb0680nok
+Process 0: Stack not Empty: TEST 0x7fc570eb3030nok
+Process 0: Stack not Empty: TEST 0x7fc570eb3df0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb1000nok
+Process 0: Stack not Empty: TEST 0x7fc570eb0620nok
+Process 0: Stack not Empty: TEST 0x7fc570eb6730nok
+Process 0: Stack not Empty: TEST 0x7fc570eb68b0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb3ec0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb9640nok
+Process 0: Stack not Empty: TEST 0x7fc570ebb140nok
+Process 0: Stack not Empty: TEST 0x7fc570eb73b0nok
+Process 0: Stack not Empty: TEST 0x7fc570eb8f20nok
+Process 0: Stack not Empty: TEST 0x7fc570ebde40nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570ebc220nok
+Process 0: Stack not Empty: TEST 0x7fc570ec2be0nok
+Process 0: Stack not Empty: TEST 0x7fc570ebb2a0nok
+Process 0: Stack not Empty: TEST 0x7fc570ec4b60nok
+Process 0: Stack not Empty: TEST 0x7fc570ebac00nok
+Process 0: Stack not Empty: TEST 0x7fc570ec6bd0nok
+Process 0: Stack not Empty: TEST 0x7fc570ec7ff0nok
+Process 0: Stack not Empty: TEST 0x7fc570ec7b60nok
+Process 0: Stack not Empty: TEST 0x7fc570ec0960nok
+Process 0: Stack not Empty: TEST 0x7fc570ec9ba0nok
+Process 0: Stack not Empty: TEST 0x7fc570eca6f0nok
+Process 0: Stack not Empty: TEST 0x7fc570eca4f0nok
+Process 0: Stack not Empty: TEST 0x7fc570ec09d0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3c6e0  90
+NormalMoveUp0x7fc570c3aa00
+Process 0: Stack not Empty: TEST 0x7fc570eca600nok
+Process 0: Stack not Empty: TEST 0x7fc570ecf4e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ec8c10nok
+Process 0: Stack not Empty: TEST 0x7fc570ecbdf0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed0aa0nok
+Process 0: Stack not Empty: TEST 0x7fc570c48300nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570ed1ee0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed3640nok
+Process 0: Stack not Empty: TEST 0x7fc570ed4030nok
+Process 0: Stack not Empty: TEST 0x7fc570ed4850nok
+Process 0: Stack not Empty: TEST 0x7fc570ed4ef0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed5700nok
+Process 0: Stack not Empty: TEST 0x7fc570ed5f30nok
+Process 0: Stack not Empty: TEST 0x7fc570ed66c0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed6e50nok
+Process 0: Stack not Empty: TEST 0x7fc570ed75e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed8070nok
+Process 0: Stack not Empty: TEST 0x7fc570ed81a0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed8ef0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed9170nok
+Process 0: Stack not Empty: TEST 0x7fc570ed95b0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed9f70nok
+Process 0: Stack not Empty: TEST 0x7fc570eda4b0nok
+Process 0: Stack not Empty: TEST 0x7fc570edaaf0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed96e0nok
+Process 0: Stack not Empty: TEST 0x7fc570ed9750nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570ed79a0nok
+Process 0: Stack not Empty: TEST 0x7fc570edee40nok
+Process 0: Stack not Empty: TEST 0x7fc570edef70nok
+Process 0: Stack not Empty: TEST 0x7fc570edc740nok
+Process 0: Stack not Empty: TEST 0x7fc570edcb90nok
+Process 0: Stack not Empty: TEST 0x7fc570ee2ce0nok
+Process 0: Stack not Empty: TEST 0x7fc570ee4360nok
+Process 0: Stack not Empty: TEST 0x7fc570ee4c60nok
+Process 0: Stack not Empty: TEST 0x7fc570ee5300nok
+Process 0: Stack not Empty: TEST 0x7fc570ee5b20nok
+Process 0: Stack not Empty: TEST 0x7fc570ee6340nok
+Process 0: Stack not Empty: TEST 0x7fc570ee7160nok
+Process 0: Stack not Empty: TEST 0x7fc570ee7740nok
+Process 0: Stack not Empty: TEST 0x7fc570ee7840nok
+Process 0: Stack not Empty: TEST 0x7fc570ee80a0nok
+Process 0: Stack not Empty: TEST 0x7fc570ee7680nok
+Process 0: Stack not Empty: TEST 0x7fc570eea020nok
+Process 0: Stack not Empty: TEST 0x7fc570ee7b90nok
+Process 0: Stack not Empty: TEST 0x7fc570ee8200nok
+Process 0: Stack not Empty: TEST 0x7fc570eeb5b0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570eeb050nok
+Process 0: Stack not Empty: TEST 0x7fc570eebe00nok
+Process 0: Stack not Empty: TEST 0x7fc570eedbd0nok
+Process 0: Stack not Empty: TEST 0x7fc570eec3b0nok
+Process 0: Stack not Empty: TEST 0x7fc570eeca00nok
+Process 0: Stack not Empty: TEST 0x7fc570eeffd0nok
+Process 0: Stack not Empty: TEST 0x7fc570ef0190nok
+Process 0: Stack not Empty: TEST 0x7fc570ef0840nok
+Process 0: Stack not Empty: TEST 0x7fc570ef33c0nok
+Process 0: Stack not Empty: TEST 0x7fc570eef670nok
+Process 0: Stack not Empty: TEST 0x7fc570ef3680nok
+Process 0: Stack not Empty: TEST 0x7fc570ef2130nok
+Process 0: Stack not Empty: TEST 0x7fc570ef2230nok
+Process 0: Stack not Empty: TEST 0x7fc570ef4170nok
+Process 0: Stack not Empty: TEST 0x7fc570ef3a40nok
+Process 0: Stack not Empty: TEST 0x7fc570ef56a0nok
+Process 0: Stack not Empty: TEST 0x7fc570ef4b10nok
+Process 0: Stack not Empty: TEST 0x7fc570ef5dc0nok
+Process 0: Stack not Empty: TEST 0x7fc570ef74f0nok
+Process 0: Stack not Empty: TEST 0x7fc570ef28b0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc570ef3980nok
+Process 0: Stack not Empty: TEST 0x7fc570ef3c50nok
+Process 0: Stack not Empty: TEST 0x7fc571800000nok
+Process 0: Stack not Empty: TEST 0x7fc5718022d0nok
+Process 0: Stack not Empty: TEST 0x7fc571803ba0nok
+Process 0: Stack not Empty: TEST 0x7fc570ef36f0nok
+Process 0: Stack not Empty: TEST 0x7fc571805100nok
+Process 0: Stack not Empty: TEST 0x7fc571808970nok
+Process 0: Stack not Empty: TEST 0x7fc571809050nok
+Process 0: Stack not Empty: TEST 0x7fc571808130nok
+Process 0: Stack not Empty: TEST 0x7fc571806c10nok
+Process 0: Stack not Empty: TEST 0x7fc5718095b0nok
+Process 0: Stack not Empty: TEST 0x7fc57180e730nok
+Process 0: Stack not Empty: TEST 0x7fc57180d110nok
+Process 0: Stack not Empty: TEST 0x7fc57180ab90nok
+Process 0: Stack not Empty: TEST 0x7fc57180c4c0nok
+Process 0: Stack not Empty: TEST 0x7fc571810ee0nok
+Process 0: Stack not Empty: TEST 0x7fc571812270nok
+Process 0: Stack not Empty: TEST 0x7fc57180e820nok
+Process 0: Stack not Empty: TEST 0x7fc5718137d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc57180e9b0nok
+Process 0: Stack not Empty: TEST 0x7fc571813960nok
+Process 0: Stack not Empty: TEST 0x7fc571814880nok
+Process 0: Stack not Empty: TEST 0x7fc571816a70nok
+Process 0: Stack not Empty: TEST 0x7fc571815410nok
+Process 0: Stack not Empty: TEST 0x7fc571817be0nok
+Process 0: Stack not Empty: TEST 0x7fc571816c30nok
+Process 0: Stack not Empty: TEST 0x7fc5718186f0nok
+Process 0: Stack not Empty: TEST 0x7fc57181b480nok
+Process 0: Stack not Empty: TEST 0x7fc571819520nok
+Process 0: Stack not Empty: TEST 0x7fc57181c2c0nok
+Process 0: Stack not Empty: TEST 0x7fc571820d90nok
+Process 0: Stack not Empty: TEST 0x7fc57181d880nok
+Process 0: Stack not Empty: TEST 0x7fc5718203d0nok
+Process 0: Stack not Empty: TEST 0x7fc571823460nok
+Process 0: Stack not Empty: TEST 0x7fc5718240b0nok
+Process 0: Stack not Empty: TEST 0x7fc571825e30nok
+Process 0: Stack not Empty: TEST 0x7fc571822fb0nok
+Process 0: Stack not Empty: TEST 0x7fc5718259d0nok
+Process 0: Stack not Empty: TEST 0x7fc57181fe90nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571823190nok
+Process 0: Stack not Empty: TEST 0x7fc571828640nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c46320  108
+NormalMoveUp0x7fc570c3c6e0
+Process 0: Stack not Empty: TEST 0x7fc5718252c0nok
+Process 0: Stack not Empty: TEST 0x7fc57182b9b0nok
+Process 0: Stack not Empty: TEST 0x7fc57182da20nok
+Process 0: Stack not Empty: TEST 0x7fc57182c540nok
+Process 0: Stack not Empty: TEST 0x7fc57182ed70nok
+Process 0: Stack not Empty: TEST 0x7fc570c493b0nok
+Process 0: Stack not Empty: TEST 0x7fc571830890nok
+Process 0: Stack not Empty: TEST 0x7fc571831950nok
+Process 0: Stack not Empty: TEST 0x7fc571832bb0nok
+Process 0: Stack not Empty: TEST 0x7fc571832f10nok
+Process 0: Stack not Empty: TEST 0x7fc571830020nok
+Process 0: Stack not Empty: TEST 0x7fc571832d30nok
+Process 0: Stack not Empty: TEST 0x7fc571837aa0nok
+Process 0: Stack not Empty: TEST 0x7fc571838200nok
+Process 0: Stack not Empty: TEST 0x7fc5718396c0nok
+Process 0: Stack not Empty: TEST 0x7fc571836e20nok
+Process 0: Stack not Empty: TEST 0x7fc57183a030nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc57183aaa0nok
+Process 0: Stack not Empty: TEST 0x7fc57183c420nok
+Process 0: Stack not Empty: TEST 0x7fc57183af30nok
+Process 0: Stack not Empty: TEST 0x7fc57183d6a0nok
+Process 0: Stack not Empty: TEST 0x7fc57183dc80nok
+Process 0: Stack not Empty: TEST 0x7fc57183ac00nok
+Process 0: Stack not Empty: TEST 0x7fc57183c090nok
+Process 0: Stack not Empty: TEST 0x7fc57183c3d0nok
+Process 0: Stack not Empty: TEST 0x7fc57183e880nok
+Process 0: Stack not Empty: TEST 0x7fc57183b390nok
+Process 0: Stack not Empty: TEST 0x7fc57183f360nok
+Process 0: Stack not Empty: TEST 0x7fc57183f3a0nok
+Process 0: Stack not Empty: TEST 0x7fc57183f560nok
+Process 0: Stack not Empty: TEST 0x7fc5718400f0nok
+Process 0: Stack not Empty: TEST 0x7fc57183d8f0nok
+Process 0: Stack not Empty: TEST 0x7fc571844c70nok
+Process 0: Stack not Empty: TEST 0x7fc5718426c0nok
+Process 0: Stack not Empty: TEST 0x7fc571844550nok
+Process 0: Stack not Empty: TEST 0x7fc571847790nok
+Process 0: Stack not Empty: TEST 0x7fc571846bb0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571848d50nok
+Process 0: Stack not Empty: TEST 0x7fc57184b0f0nok
+Process 0: Stack not Empty: TEST 0x7fc571850340nok
+Process 0: Stack not Empty: TEST 0x7fc57184d080nok
+Process 0: Stack not Empty: TEST 0x7fc571851150nok
+Process 0: Stack not Empty: TEST 0x7fc57184c410nok
+Process 0: Stack not Empty: TEST 0x7fc57184f0a0nok
+Process 0: Stack not Empty: TEST 0x7fc5718523e0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3c070  45
+NormalMoveUp0x7fc570c46320
+Process 0: Stack not Empty: TEST 0x7fc571853910nok
+Process 0: Stack not Empty: TEST 0x7fc571855b90nok
+Process 0: Stack not Empty: TEST 0x7fc571859b60nok
+Process 0: Stack not Empty: TEST 0x7fc57185a660nok
+Process 0: Stack not Empty: TEST 0x7fc570c4b4f0nok
+Process 0: Stack not Empty: TEST 0x7fc57185cee0nok
+Process 0: Stack not Empty: TEST 0x7fc57185e400nok
+Process 0: Stack not Empty: TEST 0x7fc57185e620nok
+Process 0: Stack not Empty: TEST 0x7fc5718616e0nok
+Process 0: Stack not Empty: TEST 0x7fc571861500nok
+Process 0: Stack not Empty: TEST 0x7fc571862b50nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5718641c0nok
+Process 0: Stack not Empty: TEST 0x7fc571865800nok
+Process 0: Stack not Empty: TEST 0x7fc571865d80nok
+Process 0: Stack not Empty: TEST 0x7fc5718665f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718653e0nok
+Process 0: Stack not Empty: TEST 0x7fc571867690nok
+Process 0: Stack not Empty: TEST 0x7fc57186a3e0nok
+Process 0: Stack not Empty: TEST 0x7fc57186b750nok
+Process 0: Stack not Empty: TEST 0x7fc57186cf80nok
+Process 0: Stack not Empty: TEST 0x7fc57186e490nok
+Process 0: Stack not Empty: TEST 0x7fc57186f7d0nok
+Process 0: Stack not Empty: TEST 0x7fc57186ff60nok
+Process 0: Stack not Empty: TEST 0x7fc5718724b0nok
+Process 0: Stack not Empty: TEST 0x7fc571873b90nok
+Process 0: Stack not Empty: TEST 0x7fc571874940nok
+Process 0: Stack not Empty: TEST 0x7fc571875930nok
+Process 0: Stack not Empty: TEST 0x7fc571877a00nok
+Process 0: Stack not Empty: TEST 0x7fc571877d70nok
+Process 0: Stack not Empty: TEST 0x7fc57187a9a0nok
+Process 0: Stack not Empty: TEST 0x7fc57187b6c0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc57187b600nok
+Process 0: Stack not Empty: TEST 0x7fc57187d220nok
+Process 0: Stack not Empty: TEST 0x7fc57187e120nok
+Process 0: Stack not Empty: TEST 0x7fc57187e9d0nok
+Process 0: Stack not Empty: TEST 0x7fc571880cd0nok
+Process 0: Stack not Empty: TEST 0x7fc5718825f0nok
+Process 0: Stack not Empty: TEST 0x7fc571881280nok
+Process 0: Stack not Empty: TEST 0x7fc571883460nok
+Process 0: Stack not Empty: TEST 0x7fc571885210nok
+Process 0: Stack not Empty: TEST 0x7fc5718863b0nok
+Process 0: Stack not Empty: TEST 0x7fc571886a10nok
+Process 0: Stack not Empty: TEST 0x7fc571886f00nok
+Process 0: Stack not Empty: TEST 0x7fc5718894d0nok
+Process 0: Stack not Empty: TEST 0x7fc57188b0b0nok
+Process 0: Stack not Empty: TEST 0x7fc57188ce50nok
+Process 0: Stack not Empty: TEST 0x7fc57188d280nok
+Process 0: Stack not Empty: TEST 0x7fc571890810nok
+Process 0: Stack not Empty: TEST 0x7fc5718919d0nok
+Process 0: Stack not Empty: TEST 0x7fc571891e90nok
+Process 0: Stack not Empty: TEST 0x7fc571893400nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571893b20nok
+Process 0: Stack not Empty: TEST 0x7fc571896b70nok
+Process 0: Stack not Empty: TEST 0x7fc5718977e0nok
+Process 0: Stack not Empty: TEST 0x7fc571897a10nok
+Process 0: Stack not Empty: TEST 0x7fc571899ae0nok
+Process 0: Stack not Empty: TEST 0x7fc57189aec0nok
+Process 0: Stack not Empty: TEST 0x7fc57189b5f0nok
+Process 0: Stack not Empty: TEST 0x7fc571895a20nok
+Process 0: Stack not Empty: TEST 0x7fc57189d7b0nok
+Process 0: Stack not Empty: TEST 0x7fc57189f180nok
+Process 0: Stack not Empty: TEST 0x7fc57189f4f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718a1400nok
+Process 0: Stack not Empty: TEST 0x7fc5718a18c0nok
+Process 0: Stack not Empty: TEST 0x7fc5718a0c20nok
+Process 0: Stack not Empty: TEST 0x7fc5718a3a40nok
+Process 0: Stack not Empty: TEST 0x7fc5718a54a0nok
+Process 0: Stack not Empty: TEST 0x7fc5718a6500nok
+Process 0: Stack not Empty: TEST 0x7fc5718a6c00nok
+Process 0: Stack not Empty: TEST 0x7fc5718a81b0nok
+Process 0: Stack not Empty: TEST 0x7fc5718a9740nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5718a9200nok
+Process 0: Stack not Empty: TEST 0x7fc5718abd70nok
+Process 0: Stack not Empty: TEST 0x7fc5718ac170nok
+Process 0: Stack not Empty: TEST 0x7fc5718ab980nok
+Process 0: Stack not Empty: TEST 0x7fc5718ae100nok
+Process 0: Stack not Empty: TEST 0x7fc5718ad960nok
+Process 0: Stack not Empty: TEST 0x7fc5718af640nok
+Process 0: Stack not Empty: TEST 0x7fc5718aea50nok
+Process 0: Stack not Empty: TEST 0x7fc5718ad3f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718b21d0nok
+Process 0: Stack not Empty: TEST 0x7fc5718b23f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718b29d0nok
+Process 0: Stack not Empty: TEST 0x7fc5718b4560nok
+Process 0: Stack not Empty: TEST 0x7fc5718b7060nok
+Process 0: Stack not Empty: TEST 0x7fc5718b7f90nok
+Process 0: Stack not Empty: TEST 0x7fc5718b7220nok
+Process 0: Stack not Empty: TEST 0x7fc5718b9df0nok
+Process 0: Stack not Empty: TEST 0x7fc5718bc040nok
+Process 0: Stack not Empty: TEST 0x7fc5718bc890nok
+Process 0: Stack not Empty: TEST 0x7fc5718beaa0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5718c0600nok
+Process 0: Stack not Empty: TEST 0x7fc5718c0f70nok
+Process 0: Stack not Empty: TEST 0x7fc5718c2400nok
+Process 0: Stack not Empty: TEST 0x7fc5718c06a0nok
+Process 0: Stack not Empty: TEST 0x7fc5718c3cc0nok
+Process 0: Stack not Empty: TEST 0x7fc5718c2470nok
+Process 0: Stack not Empty: TEST 0x7fc5718c4720nok
+Process 0: Stack not Empty: TEST 0x7fc5718c6390nok
+Process 0: Stack not Empty: TEST 0x7fc5718c5250nok
+Process 0: Stack not Empty: TEST 0x7fc5718c4330nok
+Process 0: Stack not Empty: TEST 0x7fc5718c9ae0nok
+Process 0: Stack not Empty: TEST 0x7fc5718ca330nok
+Process 0: Stack not Empty: TEST 0x7fc5718cad10nok
+Process 0: Stack not Empty: TEST 0x7fc5718cc730nok
+Process 0: Stack not Empty: TEST 0x7fc5718ccc20nok
+Process 0: Stack not Empty: TEST 0x7fc5718cfef0nok
+Process 0: Stack not Empty: TEST 0x7fc5718d0e50nok
+Process 0: Stack not Empty: TEST 0x7fc5718d2990nok
+Process 0: Stack not Empty: TEST 0x7fc5718d38c0nok
+Process 0: Stack not Empty: TEST 0x7fc5718d64d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5718d8000nok
+Process 0: Stack not Empty: TEST 0x7fc5718d96b0nok
+Process 0: Stack not Empty: TEST 0x7fc5718d7120nok
+Process 0: Stack not Empty: TEST 0x7fc5718dab60nok
+Process 0: Stack not Empty: TEST 0x7fc5718db510nok
+Process 0: Stack not Empty: TEST 0x7fc5718de000nok
+Process 0: Stack not Empty: TEST 0x7fc5718dedb0nok
+Process 0: Stack not Empty: TEST 0x7fc5718df9f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718e0970nok
+Process 0: Stack not Empty: TEST 0x7fc5718e30d0nok
+Process 0: Stack not Empty: TEST 0x7fc5718e4540nok
+Process 0: Stack not Empty: TEST 0x7fc5718e5040nok
+Process 0: Stack not Empty: TEST 0x7fc5718e7420nok
+Process 0: Stack not Empty: TEST 0x7fc5718e6730nok
+Process 0: Stack not Empty: TEST 0x7fc5718e9d60nok
+Process 0: Stack not Empty: TEST 0x7fc5718e9fe0nok
+Process 0: Stack not Empty: TEST 0x7fc5718e7c10nok
+Process 0: Stack not Empty: TEST 0x7fc5718ee0c0nok
+Process 0: Stack not Empty: TEST 0x7fc5718ef610nok
+Process 0: Stack not Empty: TEST 0x7fc5718ef310nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5718f0c90nok
+Process 0: Stack not Empty: TEST 0x7fc5718f29a0nok
+Process 0: Stack not Empty: TEST 0x7fc5718f4ad0nok
+Process 0: Stack not Empty: TEST 0x7fc5718f4f90nok
+Process 0: Stack not Empty: TEST 0x7fc5718f24f0nok
+Process 0: Stack not Empty: TEST 0x7fc5718f9390nok
+Process 0: Stack not Empty: TEST 0x7fc5718fa420nok
+Process 0: Stack not Empty: TEST 0x7fc5718fb0a0nok
+Process 0: Stack not Empty: TEST 0x7fc5718fafb0nok
+Process 0: Stack not Empty: TEST 0x7fc5719017d0nok
+Process 0: Stack not Empty: TEST 0x7fc571902e70nok
+Process 0: Stack not Empty: TEST 0x7fc571903c30nok
+Process 0: Stack not Empty: TEST 0x7fc571906b10nok
+Process 0: Stack not Empty: TEST 0x7fc571908a00nok
+Process 0: Stack not Empty: TEST 0x7fc571907a30nok
+Process 0: Stack not Empty: TEST 0x7fc57190ae00nok
+Process 0: Stack not Empty: TEST 0x7fc57190a2b0nok
+Process 0: Stack not Empty: TEST 0x7fc57190db60nok
+Process 0: Stack not Empty: TEST 0x7fc57190bb20nok
+Process 0: Stack not Empty: TEST 0x7fc5719110a0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571911b30nok
+Process 0: Stack not Empty: TEST 0x7fc571912a20nok
+Process 0: Stack not Empty: TEST 0x7fc571912f30nok
+Process 0: Stack not Empty: TEST 0x7fc571917730nok
+Process 0: Stack not Empty: TEST 0x7fc5719195f0nok
+Process 0: Stack not Empty: TEST 0x7fc57191a890nok
+Process 0: Stack not Empty: TEST 0x7fc57191b770nok
+Process 0: Stack not Empty: TEST 0x7fc57191a0e0nok
+Process 0: Stack not Empty: TEST 0x7fc57191e370nok
+Process 0: Stack not Empty: TEST 0x7fc57191f690nok
+Process 0: Stack not Empty: TEST 0x7fc571922150nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3bdd0  162
+NormalMoveUp0x7fc570c3c070
+Process 0: Stack not Empty: TEST 0x7fc5719211e0nok
+Process 0: Stack not Empty: TEST 0x7fc570c4bb30nok
+Process 0: Stack not Empty: TEST 0x7fc570c4c000nok
+Process 0: Stack not Empty: TEST 0x7fc570c4c040nok
+Process 0: Stack not Empty: TEST 0x7fc5719245a0nok
+Process 0: Stack not Empty: TEST 0x7fc570c4bb70nok
+Process 0: Stack not Empty: TEST 0x7fc5719244b0nok
+Process 0: Stack not Empty: TEST 0x7fc5719296d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571928a10nok
+Process 0: Stack not Empty: TEST 0x7fc571928140nok
+Process 0: Stack not Empty: TEST 0x7fc57192b760nok
+Process 0: Stack not Empty: TEST 0x7fc5719298f0nok
+Process 0: Stack not Empty: TEST 0x7fc57192ceb0nok
+Process 0: Stack not Empty: TEST 0x7fc57192c460nok
+Process 0: Stack not Empty: TEST 0x7fc57192ef20nok
+Process 0: Stack not Empty: TEST 0x7fc571929a20nok
+Process 0: Stack not Empty: TEST 0x7fc57192bdd0nok
+Process 0: Stack not Empty: TEST 0x7fc571931410nok
+Process 0: Stack not Empty: TEST 0x7fc571932b20nok
+Process 0: Stack not Empty: TEST 0x7fc57192f690nok
+Process 0: Stack not Empty: TEST 0x7fc571934170nok
+Process 0: Stack not Empty: TEST 0x7fc57192d5b0nok
+Process 0: Stack not Empty: TEST 0x7fc5719334e0nok
+Process 0: Stack not Empty: TEST 0x7fc57192b570nok
+Process 0: Stack not Empty: TEST 0x7fc571935160nok
+Process 0: Stack not Empty: TEST 0x7fc571937920nok
+Process 0: Stack not Empty: TEST 0x7fc571938420nok
+Process 0: Stack not Empty: TEST 0x7fc571939b70nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5719385e0nok
+Process 0: Stack not Empty: TEST 0x7fc57193b940nok
+Process 0: Stack not Empty: TEST 0x7fc57193c2d0nok
+Process 0: Stack not Empty: TEST 0x7fc57193cf30nok
+Process 0: Stack not Empty: TEST 0x7fc57193b230nok
+Process 0: Stack not Empty: TEST 0x7fc57193c460nok
+Process 0: Stack not Empty: TEST 0x7fc57193dbf0nok
+Process 0: Stack not Empty: TEST 0x7fc57193ded0nok
+Process 0: Stack not Empty: TEST 0x7fc571940170nok
+Process 0: Stack not Empty: TEST 0x7fc571943c80nok
+Process 0: Stack not Empty: TEST 0x7fc5719451a0nok
+Process 0: Stack not Empty: TEST 0x7fc571945900nok
+Process 0: Stack not Empty: TEST 0x7fc571945240nok
+Process 0: Stack not Empty: TEST 0x7fc571947a00nok
+Process 0: Stack not Empty: TEST 0x7fc571945f00nok
+Process 0: Stack not Empty: TEST 0x7fc571943230nok
+Process 0: Stack not Empty: TEST 0x7fc57194c110nok
+Process 0: Stack not Empty: TEST 0x7fc571949e50nok
+Process 0: Stack not Empty: TEST 0x7fc571949300nok
+Process 0: Stack not Empty: TEST 0x7fc57194c9e0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc57194e9a0nok
+Process 0: Stack not Empty: TEST 0x7fc57194dae0nok
+Process 0: Stack not Empty: TEST 0x7fc571950d60nok
+Process 0: Stack not Empty: TEST 0x7fc57194f3e0nok
+Process 0: Stack not Empty: TEST 0x7fc571951fc0nok
+Process 0: Stack not Empty: TEST 0x7fc5719502c0nok
+Process 0: Stack not Empty: TEST 0x7fc57194f750nok
+Process 0: Stack not Empty: TEST 0x7fc5719503c0nok
+Process 0: Stack not Empty: TEST 0x7fc571959130nok
+Process 0: Stack not Empty: TEST 0x7fc571959170nok
+Process 0: Stack not Empty: TEST 0x7fc57195c9a0nok
+Process 0: Stack not Empty: TEST 0x7fc57195cbb0nok
+Process 0: Stack not Empty: TEST 0x7fc57195e200nok
+Process 0: Stack not Empty: TEST 0x7fc57195fc70nok
+Process 0: Stack not Empty: TEST 0x7fc571961950nok
+Process 0: Stack not Empty: TEST 0x7fc571963b40nok
+Process 0: Stack not Empty: TEST 0x7fc571964240nok
+Process 0: Stack not Empty: TEST 0x7fc5719685b0nok
+Process 0: Stack not Empty: TEST 0x7fc571963a20nok
+Process 0: Stack not Empty: TEST 0x7fc571969720nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc57196b970nok
+Process 0: Stack not Empty: TEST 0x7fc571966b90nok
+Process 0: Stack not Empty: TEST 0x7fc57196d950nok
+Process 0: Stack not Empty: TEST 0x7fc571966aa0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c49d80  72
+NormalMoveUp0x7fc570c3bdd0
+Process 0: Stack not Empty: TEST 0x7fc57196f2d0nok
+Process 0: Stack not Empty: TEST 0x7fc570c4cb20nok
+Process 0: Stack not Empty: TEST 0x7fc570c4cc20nok
+Process 0: Stack not Empty: TEST 0x7fc571973230nok
+Process 0: Stack not Empty: TEST 0x7fc57196c720nok
+Process 0: Stack not Empty: TEST 0x7fc571973d70nok
+Process 0: Stack not Empty: TEST 0x7fc570c4ced0nok
+Process 0: Stack not Empty: TEST 0x7fc571974a60nok
+Process 0: Stack not Empty: TEST 0x7fc571973f90nok
+Process 0: Stack not Empty: TEST 0x7fc571972610nok
+Process 0: Stack not Empty: TEST 0x7fc571974fe0nok
+Process 0: Stack not Empty: TEST 0x7fc5719754d0nok
+Process 0: Stack not Empty: TEST 0x7fc5719753e0nok
+Process 0: Stack not Empty: TEST 0x7fc571976f00nok
+Process 0: Stack not Empty: TEST 0x7fc571977940nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571976db0nok
+Process 0: Stack not Empty: TEST 0x7fc5719793f0nok
+Process 0: Stack not Empty: TEST 0x7fc571979330nok
+Process 0: Stack not Empty: TEST 0x7fc57197cb70nok
+Process 0: Stack not Empty: TEST 0x7fc57197d7f0nok
+Process 0: Stack not Empty: TEST 0x7fc57197d860nok
+Process 0: Stack not Empty: TEST 0x7fc57197f420nok
+Process 0: Stack not Empty: TEST 0x7fc57197fdf0nok
+Process 0: Stack not Empty: TEST 0x7fc57197f850nok
+Process 0: Stack not Empty: TEST 0x7fc57197f490nok
+Process 0: Stack not Empty: TEST 0x7fc5719804c0nok
+Process 0: Stack not Empty: TEST 0x7fc571981f00nok
+Process 0: Stack not Empty: TEST 0x7fc5719837b0nok
+Process 0: Stack not Empty: TEST 0x7fc5719832d0nok
+Process 0: Stack not Empty: TEST 0x7fc571983430nok
+Process 0: Stack not Empty: TEST 0x7fc571986190nok
+Process 0: Stack not Empty: TEST 0x7fc5719850c0nok
+Process 0: Stack not Empty: TEST 0x7fc571985190nok
+Process 0: Stack not Empty: TEST 0x7fc571985470nok
+Process 0: Stack not Empty: TEST 0x7fc571984dd0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571988a90nok
+Process 0: Stack not Empty: TEST 0x7fc571986280nok
+Process 0: Stack not Empty: TEST 0x7fc57198a9c0nok
+Process 0: Stack not Empty: TEST 0x7fc5719897f0nok
+Process 0: Stack not Empty: TEST 0x7fc57198ce80nok
+Process 0: Stack not Empty: TEST 0x7fc57198c5e0nok
+Process 0: Stack not Empty: TEST 0x7fc57198e590nok
+Process 0: Stack not Empty: TEST 0x7fc57198d7e0nok
+Process 0: Stack not Empty: TEST 0x7fc57198c220nok
+Process 0: Stack not Empty: TEST 0x7fc57198f860nok
+Process 0: Stack not Empty: TEST 0x7fc571990330nok
+Process 0: Stack not Empty: TEST 0x7fc5719906d0nok
+Process 0: Stack not Empty: TEST 0x7fc5719907d0nok
+Process 0: Stack not Empty: TEST 0x7fc571995870nok
+Process 0: Stack not Empty: TEST 0x7fc571995c70nok
+Process 0: Stack not Empty: TEST 0x7fc571996ae0nok
+Process 0: Stack not Empty: TEST 0x7fc571997670nok
+Process 0: Stack not Empty: TEST 0x7fc571994980nok
+Process 0: Stack not Empty: TEST 0x7fc571994500nok
+Process 0: Stack not Empty: TEST 0x7fc571998090nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571998190nok
+Process 0: Stack not Empty: TEST 0x7fc57199a6a0nok
+Process 0: Stack not Empty: TEST 0x7fc571999cd0nok
+Process 0: Stack not Empty: TEST 0x7fc57199b340nok
+Process 0: Stack not Empty: TEST 0x7fc57199ace0nok
+Process 0: Stack not Empty: TEST 0x7fc57199aa40nok
+Process 0: Stack not Empty: TEST 0x7fc57199bd10nok
+Process 0: Stack not Empty: TEST 0x7fc57199d8c0nok
+Process 0: Stack not Empty: TEST 0x7fc5719969c0nok
+Process 0: Stack not Empty: TEST 0x7fc57199d7a0nok
+Process 0: Stack not Empty: TEST 0x7fc57199dd50nok
+Process 0: Stack not Empty: TEST 0x7fc57199c5d0nok
+Process 0: Stack not Empty: TEST 0x7fc57199e890nok
+Process 0: Stack not Empty: TEST 0x7fc5719a0280nok
+Process 0: Stack not Empty: TEST 0x7fc57199eef0nok
+Process 0: Stack not Empty: TEST 0x7fc5719a2cc0nok
+Process 0: Stack not Empty: TEST 0x7fc5719a4310nok
+Process 0: Stack not Empty: TEST 0x7fc5719a4950nok
+Process 0: Stack not Empty: TEST 0x7fc5719a4a20nok
+Process 0: Stack not Empty: TEST 0x7fc5719a8c00nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5719a8960nok
+Process 0: Stack not Empty: TEST 0x7fc5719a52d0nok
+Process 0: Stack not Empty: TEST 0x7fc5719ac5e0nok
+Process 0: Stack not Empty: TEST 0x7fc5719ab260nok
+Process 0: Stack not Empty: TEST 0x7fc5719b0270nok
+Process 0: Stack not Empty: TEST 0x7fc5719adcf0nok
+Process 0: Stack not Empty: TEST 0x7fc5719acd60nok
+Process 0: Stack not Empty: TEST 0x7fc5719a9aa0nok
+Process 0: Stack not Empty: TEST 0x7fc5719b2ca0nok
+Process 0: Stack not Empty: TEST 0x7fc5719b4650nok
+Process 0: Stack not Empty: TEST 0x7fc5719b5b10nok
+Process 0: Stack not Empty: TEST 0x7fc5719b74f0nok
+Process 0: Stack not Empty: TEST 0x7fc5719b5f80nok
+Process 0: Stack not Empty: TEST 0x7fc5719b8890nok
+Process 0: Stack not Empty: TEST 0x7fc5719b88d0nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3cd90  90
+NormalMoveUp0x7fc570c49d80
+Process 0: Stack not Empty: TEST 0x7fc5719ba9c0nok
+Process 0: Stack not Empty: TEST 0x7fc5719c0d20nok
+Process 0: Stack not Empty: TEST 0x7fc570c4dc30nok
+Process 0: Stack not Empty: TEST 0x7fc5719c2b80nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5719c1210nok
+Process 0: Stack not Empty: TEST 0x7fc5719c2ce0nok
+Process 0: Stack not Empty: TEST 0x7fc5719c67b0nok
+Process 0: Stack not Empty: TEST 0x7fc5719c5d00nok
+Process 0: Stack not Empty: TEST 0x7fc5719c7aa0nok
+Process 0: Stack not Empty: TEST 0x7fc5719cadd0nok
+Process 0: Stack not Empty: TEST 0x7fc5719cc750nok
+Process 0: Stack not Empty: TEST 0x7fc5719ce670nok
+Process 0: Stack not Empty: TEST 0x7fc5719ce920nok
+Process 0: Stack not Empty: TEST 0x7fc5719cde40nok
+Process 0: Stack not Empty: TEST 0x7fc5719d1b60nok
+Process 0: Stack not Empty: TEST 0x7fc5719d27e0nok
+Process 0: Stack not Empty: TEST 0x7fc5719ce960nok
+Process 0: Stack not Empty: TEST 0x7fc5719d2750nok
+Process 0: Stack not Empty: TEST 0x7fc5719d5460nok
+Process 0: Stack not Empty: TEST 0x7fc5719d71f0nok
+Process 0: Stack not Empty: TEST 0x7fc5719d8c00nok
+Process 0: Stack not Empty: TEST 0x7fc5719d5ba0nok
+Process 0: Stack not Empty: TEST 0x7fc5719d5c40nok
+Process 0: Stack not Empty: TEST 0x7fc5719d1ad0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5719e1a00nok
+Process 0: Stack not Empty: TEST 0x7fc5719e2ec0nok
+Process 0: Stack not Empty: TEST 0x7fc5719e4790nok
+Process 0: Stack not Empty: TEST 0x7fc5719e6ee0nok
+Process 0: Stack not Empty: TEST 0x7fc5719e8560nok
+Process 0: Stack not Empty: TEST 0x7fc5719e6910nok
+Process 0: Stack not Empty: TEST 0x7fc5719e9090nok
+Process 0: Stack not Empty: TEST 0x7fc5719ebfe0nok
+Process 0: Stack not Empty: TEST 0x7fc5719eccd0nok
+Process 0: Stack not Empty: TEST 0x7fc5719ef370nok
+Process 0: Stack not Empty: TEST 0x7fc5719eec20nok
+Process 0: Stack not Empty: TEST 0x7fc5719f01e0nok
+Process 0: Stack not Empty: TEST 0x7fc5719f1cf0nok
+Process 0: Stack not Empty: TEST 0x7fc5719f1140nok
+Process 0: Stack not Empty: TEST 0x7fc5719f3150nok
+Process 0: Stack not Empty: TEST 0x7fc5719f3720nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3a7a0  40
+NormalMoveUp0x7fc570c3cd90
+Process 0: Stack not Empty: TEST 0x7fc5719f9390nok
+Process 0: Stack not Empty: TEST 0x7fc5719fbd90nok
+Process 0: Stack not Empty: TEST 0x7fc571a001b0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc5719f83d0nok
+Process 0: Stack not Empty: TEST 0x7fc5719f84d0nok
+Process 0: Stack not Empty: TEST 0x7fc5719fba00nok
+Process 0: Stack not Empty: TEST 0x7fc571a01350nok
+Process 0: Stack not Empty: TEST 0x7fc571a03240nok
+Process 0: Stack not Empty: TEST 0x7fc571a03ba0nok
+Process 0: Stack not Empty: TEST 0x7fc571a046e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a045f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a04c70nok
+Process 0: Stack not Empty: TEST 0x7fc571a06100nok
+Process 0: Stack not Empty: TEST 0x7fc571a07350nok
+Process 0: Stack not Empty: TEST 0x7fc571a07ea0nok
+Process 0: Stack not Empty: TEST 0x7fc571a08bc0nok
+Process 0: Stack not Empty: TEST 0x7fc571a097e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0ace0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0c4e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0ba00nok
+Process 0: Stack not Empty: TEST 0x7fc571a0d1f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0dfb0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0f280nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a0f7f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a0e910nok
+Process 0: Stack not Empty: TEST 0x7fc571a116a0nok
+Process 0: Stack not Empty: TEST 0x7fc571a107a0nok
+Process 0: Stack not Empty: TEST 0x7fc571a10a20nok
+Process 0: Stack not Empty: TEST 0x7fc571a12180nok
+Process 0: Stack not Empty: TEST 0x7fc571a12ae0nok
+Process 0: Stack not Empty: TEST 0x7fc571a15c00nok
+Process 0: Stack not Empty: TEST 0x7fc571a16a80nok
+Process 0: Stack not Empty: TEST 0x7fc571a147c0nok
+Process 0: Stack not Empty: TEST 0x7fc571a17940nok
+Process 0: Stack not Empty: TEST 0x7fc571a17070nok
+Process 0: Stack not Empty: TEST 0x7fc571a18030nok
+Process 0: Stack not Empty: TEST 0x7fc571a19b60nok
+Process 0: Stack not Empty: TEST 0x7fc571a1af10nok
+Process 0: Stack not Empty: TEST 0x7fc571a19c00nok
+Process 0: Stack not Empty: TEST 0x7fc571a1e3c0nok
+Process 0: Stack not Empty: TEST 0x7fc571a1d980nok
+Process 0: Stack not Empty: TEST 0x7fc571a1dc60nok
+Process 0: Stack not Empty: TEST 0x7fc571a1f290nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a21390nok
+Process 0: Stack not Empty: TEST 0x7fc571a23af0nok
+Process 0: Stack not Empty: TEST 0x7fc571a1fad0nok
+Process 0: Stack not Empty: TEST 0x7fc571a22ef0nok
+Process 0: Stack not Empty: TEST 0x7fc571a24880nok
+Process 0: Stack not Empty: TEST 0x7fc571a25e00nok
+Process 0: Stack not Empty: TEST 0x7fc571a241c0nok
+Process 0: Stack not Empty: TEST 0x7fc571a27210nok
+Process 0: Stack not Empty: TEST 0x7fc571a27f00nok
+Process 0: Stack not Empty: TEST 0x7fc571a290d0nok
+Process 0: Stack not Empty: TEST 0x7fc571a2a1e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a2bef0nok
+Process 0: Stack not Empty: TEST 0x7fc571a2c970nok
+Process 0: Stack not Empty: TEST 0x7fc571a2d8d0nok
+Process 0: Stack not Empty: TEST 0x7fc571a2d380nok
+Process 0: Stack not Empty: TEST 0x7fc571a2e830nok
+Process 0: Stack not Empty: TEST 0x7fc571a2faf0nok
+Process 0: Stack not Empty: TEST 0x7fc571a30ab0nok
+Process 0: Stack not Empty: TEST 0x7fc571a30de0nok
+Process 0: Stack not Empty: TEST 0x7fc571a33480nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a333c0nok
+Process 0: Stack not Empty: TEST 0x7fc571a35ec0nok
+Process 0: Stack not Empty: TEST 0x7fc571a35710nok
+Process 0: Stack not Empty: TEST 0x7fc571a36f00nok
+Process 0: Stack not Empty: TEST 0x7fc571a38190nok
+Process 0: Stack not Empty: TEST 0x7fc571a3bbb0nok
+Process 0: Stack not Empty: TEST 0x7fc571a3bdd0nok
+Process 0: Stack not Empty: TEST 0x7fc571a3d000nok
+Process 0: Stack not Empty: TEST 0x7fc571a3c480nok
+Process 0: Stack not Empty: TEST 0x7fc571a3f370nok
+Process 0: Stack not Empty: TEST 0x7fc571a3bfa0nok
+Process 0: Stack not Empty: TEST 0x7fc571a40c20nok
+Process 0: Stack not Empty: TEST 0x7fc571a42c80nok
+Process 0: Stack not Empty: TEST 0x7fc571a40d20nok
+Process 0: Stack not Empty: TEST 0x7fc571a41400nok
+Process 0: Stack not Empty: TEST 0x7fc571a44130nok
+Process 0: Stack not Empty: TEST 0x7fc571a41730nok
+Process 0: Stack not Empty: TEST 0x7fc571a44a50nok
+Process 0: Stack not Empty: TEST 0x7fc571a44e20nok
+Process 0: Stack not Empty: TEST 0x7fc571a44cd0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a47d40nok
+Process 0: Stack not Empty: TEST 0x7fc571a481a0nok
+Process 0: Stack not Empty: TEST 0x7fc571a499f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a474d0nok
+Process 0: Stack not Empty: TEST 0x7fc571a49cd0nok
+Process 0: Stack not Empty: TEST 0x7fc571a472f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a4bf60nok
+Process 0: Stack not Empty: TEST 0x7fc571a4e360nok
+Process 0: Stack not Empty: TEST 0x7fc571a4cfb0nok
+Process 0: Stack not Empty: TEST 0x7fc571a4ea50nok
+Process 0: Stack not Empty: TEST 0x7fc571a4f310nok
+Process 0: Stack not Empty: TEST 0x7fc571a51900nok
+Process 0: Stack not Empty: TEST 0x7fc571a53370nok
+Process 0: Stack not Empty: TEST 0x7fc571a51d90nok
+Process 0: Stack not Empty: TEST 0x7fc571a52b10nok
+Process 0: Stack not Empty: TEST 0x7fc571a50a00nok
+Process 0: Stack not Empty: TEST 0x7fc571a580e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a57bd0nok
+Process 0: Stack not Empty: TEST 0x7fc571a569f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a5a330nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a5a000nok
+Process 0: Stack not Empty: TEST 0x7fc571a579f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a59c10nok
+Process 0: Stack not Empty: TEST 0x7fc571a53f60nok
+Process 0: Stack not Empty: TEST 0x7fc571a60b40nok
+Process 0: Stack not Empty: TEST 0x7fc571a5ff10nok
+Process 0: Stack not Empty: TEST 0x7fc571a5bfa0nok
+Process 0: Stack not Empty: TEST 0x7fc571a5b9e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a5cfa0nok
+Process 0: Stack not Empty: TEST 0x7fc571a69780nok
+Process 0: Stack not Empty: TEST 0x7fc571a6cea0nok
+Process 0: Stack not Empty: TEST 0x7fc571a69180nok
+Process 0: Stack not Empty: TEST 0x7fc571a67200nok
+Process 0: Stack not Empty: TEST 0x7fc571a67790nok
+Process 0: Stack not Empty: TEST 0x7fc571a696f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a67240nok
+Process 0: Stack not Empty: TEST 0x7fc571a72c90nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c451e0  120
+NormalMoveUp0x7fc570c3a7a0
+Process 0: Stack not Empty: TEST 0x7fc571a690c0nok
+Process 0: Stack not Empty: TEST 0x7fc571a70110nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a74070nok
+Process 0: Stack not Empty: TEST 0x7fc571a76320nok
+Process 0: Stack not Empty: TEST 0x7fc570c4fcb0nok
+Process 0: Stack not Empty: TEST 0x7fc571a75d30nok
+Process 0: Stack not Empty: TEST 0x7fc571a781e0nok
+Process 0: Stack not Empty: TEST 0x7fc571a79b60nok
+Process 0: Stack not Empty: TEST 0x7fc571a7a7d0nok
+Process 0: Stack not Empty: TEST 0x7fc571a7b870nok
+Process 0: Stack not Empty: TEST 0x7fc571a7cda0nok
+Process 0: Stack not Empty: TEST 0x7fc571a7c4f0nok
+Process 0: Stack not Empty: TEST 0x7fc571a7e690nok
+Process 0: Stack not Empty: TEST 0x7fc571a7c980nok
+Process 0: Stack not Empty: TEST 0x7fc571a7e000nok
+Process 0: Stack not Empty: TEST 0x7fc571a7cfc0nok
+Process 0: Stack not Empty: TEST 0x7fc571a7ec20nok
+Process 0: Stack not Empty: TEST 0x7fc571a7ff30nok
+Process 0: Stack not Empty: TEST 0x7fc571a7ed80nok
+Process 0: Stack not Empty: TEST 0x7fc571a82380nok
+Process 0: Stack not Empty: TEST 0x7fc571a83af0nok
+Process 0: Stack not Empty: TEST 0x7fc571a86110nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a83d40nok
+Process 0: Stack not Empty: TEST 0x7fc571a87eb0nok
+Process 0: Stack not Empty: TEST 0x7fc571a88160nok
+Process 0: Stack not Empty: TEST 0x7fc571a86910nok
+Process 0: Stack not Empty: TEST 0x7fc571a85500nok
+Process 0: Stack not Empty: TEST 0x7fc571a8a720nok
+Process 0: Stack not Empty: TEST 0x7fc571a86dc0nok
+Process 0: Stack not Empty: TEST 0x7fc571a88d40nok
+Process 0: Stack not Empty: TEST 0x7fc571a8bd40nok
+Process 0: Stack not Empty: TEST 0x7fc571a8d850nok
+Process 0: Stack not Empty: TEST 0x7fc571a88c80nok
+Process 0: Stack not Empty: TEST 0x7fc571a8d370nok
+Process 0: Stack not Empty: TEST 0x7fc571a8bea0nok
+Process 0: Stack not Empty: TEST 0x7fc571a8cd50nok
+Process 0: Stack not Empty: TEST 0x7fc571a90d50nok
+Process 0: Stack not Empty: TEST 0x7fc571a90480nok
+Process 0: Stack not Empty: TEST 0x7fc571a92fd0nok
+Process 0: Stack not Empty: TEST 0x7fc571a91300nok
+Process 0: Stack not Empty: TEST 0x7fc571a8ea40nok
+Process 0: Stack not Empty: TEST 0x7fc571a963c0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571a995d0nok
+Process 0: Stack not Empty: TEST 0x7fc571a98250nok
+Process 0: Stack not Empty: TEST 0x7fc571a94650nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3f520  45
+NormalMoveUp0x7fc570c451e0
+Process 0: Stack not Empty: TEST 0x7fc571a92660nok
+Process 0: Stack not Empty: TEST 0x7fc571a94a10nok
+Process 0: Stack not Empty: TEST 0x7fc571aa1550nok
+Process 0: Stack not Empty: TEST 0x7fc571a9e8b0nok
+Process 0: Stack not Empty: TEST 0x7fc571a9d370nok
+Process 0: Stack not Empty: TEST 0x7fc570c50cc0nok
+Process 0: Stack not Empty: TEST 0x7fc571aa2140nok
+Process 0: Stack not Empty: TEST 0x7fc571aa2ed0nok
+Process 0: Stack not Empty: TEST 0x7fc571aa3e30nok
+Process 0: Stack not Empty: TEST 0x7fc571aa3a10nok
+Process 0: Stack not Empty: TEST 0x7fc571aa5f90nok
+Process 0: Stack not Empty: TEST 0x7fc571aa3ab0nok
+Process 0: Stack not Empty: TEST 0x7fc571aa4a30nok
+Process 0: Stack not Empty: TEST 0x7fc571aa7ec0nok
+Process 0: Stack not Empty: TEST 0x7fc571aa9b30nok
+Process 0: Stack not Empty: TEST 0x7fc571aa8720nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571aaac70nok
+Process 0: Stack not Empty: TEST 0x7fc571aaa510nok
+Process 0: Stack not Empty: TEST 0x7fc571aacc90nok
+Process 0: Stack not Empty: TEST 0x7fc571aadd70nok
+Process 0: Stack not Empty: TEST 0x7fc571aad9b0nok
+Process 0: Stack not Empty: TEST 0x7fc571aae9b0nok
+Process 0: Stack not Empty: TEST 0x7fc571aaf010nok
+Process 0: Stack not Empty: TEST 0x7fc571ab03f0nok
+Process 0: Stack not Empty: TEST 0x7fc571ab17f0nok
+Process 0: Stack not Empty: TEST 0x7fc571ab07e0nok
+Process 0: Stack not Empty: TEST 0x7fc571ab3a00nok
+Process 0: Stack not Empty: TEST 0x7fc571ab4540nok
+Process 0: Stack not Empty: TEST 0x7fc571ab4270nok
+Process 0: Stack not Empty: TEST 0x7fc571ab6470nok
+Process 0: Stack not Empty: TEST 0x7fc571ab7c60nok
+Process 0: Stack not Empty: TEST 0x7fc571ab7250nok
+Process 0: Stack not Empty: TEST 0x7fc571ab9d40nok
+Process 0: Stack not Empty: TEST 0x7fc571ab8aa0nok
+Process 0: Stack not Empty: TEST 0x7fc571abcb20nok
+Process 0: Stack not Empty: TEST 0x7fc571abc3d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571abeef0nok
+Process 0: Stack not Empty: TEST 0x7fc571ab89e0nok
+Process 0: Stack not Empty: TEST 0x7fc571abf940nok
+Process 0: Stack not Empty: TEST 0x7fc571abd030nok
+Process 0: Stack not Empty: TEST 0x7fc571ac06a0nok
+Process 0: Stack not Empty: TEST 0x7fc571abc1f0nok
+Process 0: Stack not Empty: TEST 0x7fc571ac0150nok
+Process 0: Stack not Empty: TEST 0x7fc571ac0c30nok
+Process 0: Stack not Empty: TEST 0x7fc571ac1470nok
+Process 0: Stack not Empty: TEST 0x7fc571ac1c50nok
+Process 0: Stack not Empty: TEST 0x7fc571abf2b0nok
+Process 0: Stack not Empty: TEST 0x7fc571ac4480nok
+Process 0: Stack not Empty: TEST 0x7fc571ac2c10nok
+Process 0: Stack not Empty: TEST 0x7fc571ac1540nok
+Process 0: Stack not Empty: TEST 0x7fc571ac9610nok
+Process 0: Stack not Empty: TEST 0x7fc571acabf0nok
+Process 0: Stack not Empty: TEST 0x7fc571acb250nok
+Process 0: Stack not Empty: TEST 0x7fc571ac9a60nok
+Process 0: Stack not Empty: TEST 0x7fc571acc820nok
+Process 0: Stack not Empty: TEST 0x7fc571acd2d0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571acdcf0nok
+Process 0: Stack not Empty: TEST 0x7fc571acf630nok
+Process 0: Stack not Empty: TEST 0x7fc571ace900nok
+Process 0: Stack not Empty: TEST 0x7fc571ad13a0nok
+Process 0: Stack not Empty: TEST 0x7fc571ad35f0nok
+Process 0: Stack not Empty: TEST 0x7fc571ad6a10nok
+Process 0: Stack not Empty: TEST 0x7fc571ad6da0nok
+Process 0: Stack not Empty: TEST 0x7fc571ad5c30nok
+Process 0: Stack not Empty: TEST 0x7fc571ad5180nok
+Process 0: Stack not Empty: TEST 0x7fc571ada610nok
+Process 0: Stack not Empty: TEST 0x7fc571ad97d0nok
+Process 0: Stack not Empty: TEST 0x7fc571adcad0nok
+Process 0: Stack not Empty: TEST 0x7fc571aded40nok
+Process 0: Stack not Empty: TEST 0x7fc571ad8620nok
+Process 0: Stack not Empty: TEST 0x7fc571ae1ce0nok
+Process 0: Stack not Empty: TEST 0x7fc571adcce0nok
+Process 0: Stack not Empty: TEST 0x7fc571ae43b0nok
+Process 0: Stack not Empty: TEST 0x7fc571ae23e0nok
+Process 0: Stack not Empty: TEST 0x7fc571adf7a0nok
+Process 0: Stack not Empty: TEST 0x7fc571adfa20nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571ae7400nok
+Process 0: Stack not Empty: TEST 0x7fc571ae9ab0nok
+Process 0: Stack not Empty: TEST 0x7fc571ae7310nok
+Process 0: Stack not Empty: TEST 0x7fc571ae9b50nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3b2c0  80
+NormalMoveUp0x7fc570c3f520
+Process 0: Stack not Empty: TEST 0x7fc571aef400nok
+Process 0: Stack not Empty: TEST 0x7fc571af3300nok
+Process 0: Stack not Empty: TEST 0x7fc571aeb6f0nok
+Process 0: Stack not Empty: TEST 0x7fc571af57c0nok
+Process 0: Stack not Empty: TEST 0x7fc570c51ab0nok
+Process 0: Stack not Empty: TEST 0x7fc571af87f0nok
+Process 0: Stack not Empty: TEST 0x7fc571af7aa0nok
+Process 0: Stack not Empty: TEST 0x7fc571af90d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b006f0nok
+Process 0: Stack not Empty: TEST 0x7fc571af5f00nok
+Process 0: Stack not Empty: TEST 0x7fc571b03f50nok
+Process 0: Stack not Empty: TEST 0x7fc571b04920nok
+Process 0: Stack not Empty: TEST 0x7fc571b06570nok
+Process 0: Stack not Empty: TEST 0x7fc571b04f60nok
+Process 0: Stack not Empty: TEST 0x7fc571b06e50nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b075f0nok
+Process 0: Stack not Empty: TEST 0x7fc571b0c360nok
+Process 0: Stack not Empty: TEST 0x7fc571b0c430nok
+Process 0: Stack not Empty: TEST 0x7fc571b0f750nok
+Process 0: Stack not Empty: TEST 0x7fc571b0d5d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b10e10nok
+Process 0: Stack not Empty: TEST 0x7fc571b125e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b137a0nok
+Process 0: Stack not Empty: TEST 0x7fc571b13740nok
+Process 0: Stack not Empty: TEST 0x7fc571b15db0nok
+Process 0: Stack not Empty: TEST 0x7fc571b15600nok
+Process 0: Stack not Empty: TEST 0x7fc571b197f0nok
+Process 0: Stack not Empty: TEST 0x7fc571b19e30nok
+Process 0: Stack not Empty: TEST 0x7fc571b1dd90nok
+Process 0: Stack not Empty: TEST 0x7fc571b1f410nok
+Process 0: Stack not Empty: TEST 0x7fc571b20880nok
+Process 0: Stack not Empty: TEST 0x7fc571b1f840nok
+Process 0: Stack not Empty: TEST 0x7fc571b1c6c0nok
+Process 0: Stack not Empty: TEST 0x7fc571b22200nok
+Process 0: Stack not Empty: TEST 0x7fc571b26720nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b28530nok
+Process 0: Stack not Empty: TEST 0x7fc571b29fd0nok
+Process 0: Stack not Empty: TEST 0x7fc571b28db0nok
+Process 0: Stack not Empty: TEST 0x7fc571b2cc40nok
+Process 0: Stack not Empty: TEST 0x7fc571b2bbe0nok
+Process 0: Stack not Empty: TEST 0x7fc571b2f570nok
+Process 0: Stack not Empty: TEST 0x7fc571b30420nok
+Process 0: Stack not Empty: TEST 0x7fc571b2fcd0nok
+Process 0: Stack not Empty: TEST 0x7fc571b30b30nok
+Process 0: Stack not Empty: TEST 0x7fc571b34a40nok
+Process 0: Stack not Empty: TEST 0x7fc571b2f880nok
+Process 0: Stack not Empty: TEST 0x7fc571b376e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b37a80nok
+Process 0: Stack not Empty: TEST 0x7fc571b359f0nok
+Process 0: Stack not Empty: TEST 0x7fc571b3c860nok
+Process 0: Stack not Empty: TEST 0x7fc571b3a430nok
+Process 0: Stack not Empty: TEST 0x7fc571b3f320nok
+Process 0: Stack not Empty: TEST 0x7fc571b405b0nok
+Process 0: Stack not Empty: TEST 0x7fc571b3e600nok
+Process 0: Stack not Empty: TEST 0x7fc571b433a0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b3e7f0nok
+Process 0: Stack not Empty: TEST 0x7fc571b40650nok
+Process 0: Stack not Empty: TEST 0x7fc571b478d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b4a4b0nok
+Process 0: Stack not Empty: TEST 0x7fc571b48890nok
+Process 0: Stack not Empty: TEST 0x7fc571b4d240nok
+Process 0: Stack not Empty: TEST 0x7fc571b4f130nok
+Process 0: Stack not Empty: TEST 0x7fc571b4fec0nok
+Process 0: Stack not Empty: TEST 0x7fc571b529d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b54480nok
+Process 0: Stack not Empty: TEST 0x7fc571b53250nok
+Process 0: Stack not Empty: TEST 0x7fc571b549d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b557c0nok
+Process 0: Stack not Empty: TEST 0x7fc571b57390nok
+Process 0: Stack not Empty: TEST 0x7fc571b4de20nok
+Process 0: Stack not Empty: TEST 0x7fc571b59a90nok
+Process 0: Stack not Empty: TEST 0x7fc571b5bdf0nok
+Process 0: Stack not Empty: TEST 0x7fc571b5ee20nok
+Process 0: Stack not Empty: TEST 0x7fc571b5f2b0nok
+Process 0: Stack not Empty: TEST 0x7fc571b52640nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b64380nok
+Process 0: Stack not Empty: TEST 0x7fc571b64b30nok
+Process 0: Stack not Empty: TEST 0x7fc571b647e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b662d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b6a1a0nok
+Process 0: Stack not Empty: TEST 0x7fc571b6b220nok
+Process 0: Stack not Empty: TEST 0x7fc571b6bfa0nok
+Process 0: Stack not Empty: TEST 0x7fc571b6bb50nok
+Process 0: Stack not Empty: TEST 0x7fc571b70230nok
+Process 0: Stack not Empty: TEST 0x7fc571b70e90nok
+Process 0: Stack not Empty: TEST 0x7fc571b72ae0nok
+Process 0: Stack not Empty: TEST 0x7fc571b6df20nok
+Process 0: Stack not Empty: TEST 0x7fc571b737e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b75420nok
+Process 0: Stack not Empty: TEST 0x7fc571b74760nok
+Process 0: Stack not Empty: TEST 0x7fc571b71990nok
+Process 0: Stack not Empty: TEST 0x7fc571b7b4e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b7ad30nok
+Process 0: Stack not Empty: TEST 0x7fc571b7d9a0nok
+Process 0: Stack not Empty: TEST 0x7fc571b7d520nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b82890nok
+Process 0: Stack not Empty: TEST 0x7fc571b82bd0nok
+Process 0: Stack not Empty: TEST 0x7fc571b85ad0nok
+Process 0: Stack not Empty: TEST 0x7fc571b874b0nok
+Process 0: Stack not Empty: TEST 0x7fc571b89be0nok
+Process 0: Stack not Empty: TEST 0x7fc571b8c0d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b8e4d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b8d720nok
+Process 0: Stack not Empty: TEST 0x7fc571b871e0nok
+Process 0: Stack not Empty: TEST 0x7fc571b8ebf0nok
+Process 0: Stack not Empty: TEST 0x7fc571b90360nok
+Process 0: Stack not Empty: TEST 0x7fc571b93690nok
+Process 0: Stack not Empty: TEST 0x7fc571b94e80nok
+Process 0: Stack not Empty: TEST 0x7fc571b96b40nok
+Process 0: Stack not Empty: TEST 0x7fc571b962d0nok
+Process 0: Stack not Empty: TEST 0x7fc571b98730nok
+Process 0: Stack not Empty: TEST 0x7fc571b99720nok
+Process 0: Stack not Empty: TEST 0x7fc571b9a690nok
+Process 0: Stack not Empty: TEST 0x7fc571b9ce10nok
+Process 0: Stack not Empty: TEST 0x7fc571b99ee0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571b9f800nok
+Process 0: Stack not Empty: TEST 0x7fc571ba2270nok
+Process 0: Stack not Empty: TEST 0x7fc571ba1be0nok
+Process 0: Stack not Empty: TEST 0x7fc571ba4760nok
+Process 0: Stack not Empty: TEST 0x7fc571ba3ab0nok
+Process 0: Stack not Empty: TEST 0x7fc571ba6d10nok
+Process 0: Stack not Empty: TEST 0x7fc571ba9ec0nok
+Process 0: Stack not Empty: TEST 0x7fc571baac40nok
+Process 0: Stack not Empty: TEST 0x7fc571baaa60nok
+Process 0: Stack not Empty: TEST 0x7fc571bad940nok
+Process 0: Stack not Empty: TEST 0x7fc571bb0be0nok
+Process 0: Stack not Empty: TEST 0x7fc571babdf0nok
+Process 0: Stack not Empty: TEST 0x7fc571bb3280nok
+Process 0: Stack not Empty: TEST 0x7fc571bb3010nok
+Process 0: Stack not Empty: TEST 0x7fc571bb14e0nok
+Process 0: Stack not Empty: TEST 0x7fc571bb92e0nok
+Process 0: Stack not Empty: TEST 0x7fc571bba750nok
+Process 0: Stack not Empty: TEST 0x7fc571bbc4f0nok
+Process 0: Stack not Empty: TEST 0x7fc571bb6280nok
+Process 0: Stack not Empty: TEST 0x7fc571bbd6f0nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571bc1770nok
+Process 0: Stack not Empty: TEST 0x7fc571bb5d40nok
+Process 0: Stack not Empty: TEST 0x7fc571bc52e0nok
+Process 0: Stack not Empty: TEST 0x7fc571bc5e50nok
+Process 0: Stack not Empty: TEST 0x7fc571bc7860nok
+Process 0: Stack not Empty: TEST 0x7fc571bc37b0nok
+Process 0: Stack not Empty: TEST 0x7fc571bcb0e0nok
+Process 0: Stack not Empty: TEST 0x7fc571bcd920nok
+Process 0: Stack not Empty: TEST 0x7fc571bce560nok
+Process 0: Stack not Empty: TEST 0x7fc571bd0dd0nok
+Process 0: Stack not Empty: TEST 0x7fc571bd3050nok
+Process 0: Stack not Empty: TEST 0x7fc571bd50f0nok
+Process 0: Stack not Empty: TEST 0x7fc571bd6570nok
+Process 0: Stack not Empty: TEST 0x7fc571bd81b0nok
+Process 0: Stack not Empty: TEST 0x7fc571bd9810nok
+Process 0: Stack not Empty: TEST 0x7fc571bda130nok
+Process 0: Stack not Empty: TEST 0x7fc571bd8f40nok
+Process 0: Stack not Empty: TEST 0x7fc571bdcd70nok
+Process 0: Stack not Empty: TEST 0x7fc571bde630nok
+Process 0: Stack not Empty: TEST 0x7fc571bdf620nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571bdf960nok
+Process 0: Stack not Empty: TEST 0x7fc571be1d30nok
+Process 0: Stack not Empty: TEST 0x7fc571be3d00nok
+Process 0: Stack not Empty: TEST 0x7fc571be4d40nok
+Process 0: Stack not Empty: TEST 0x7fc571be52f0nok
+Process 0: Stack not Empty: TEST 0x7fc571be7630nok
+Process 0: Stack not Empty: TEST 0x7fc571be90d0nok
+Process 0: Stack not Empty: TEST 0x7fc571be7fc0nok
+Process 0: Stack not Empty: TEST 0x7fc571bebbf0nok
+Process 0: Stack not Empty: TEST 0x7fc571beddb0nok
+Process 0: Stack not Empty: TEST 0x7fc571bef3c0nok
+Process 0: Stack not Empty: TEST 0x7fc571bf1350nok
+Process 0: Stack not Empty: TEST 0x7fc571bf2a90nok
+Process 0: Stack not Empty: TEST 0x7fc571bf42f0nok
+Process 0: Stack not Empty: TEST 0x7fc571bf5eb0nok
+Process 0: Stack not Empty: TEST 0x7fc571bf7320nok
+Process 0: Stack not Empty: TEST 0x7fc571bf7390nok
+Process 0: Stack not Empty: TEST 0x7fc571bf7a90nok
+Process 0: Stack not Empty: TEST 0x7fc571c00600nok
+Process 0: Stack not Empty: TEST 0x7fc571bfae90nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571c03270nok
+Process 0: Stack not Empty: TEST 0x7fc571c04150nok
+Process 0: Stack not Empty: TEST 0x7fc571c03ac0nok
+Process 0: Stack not Empty: TEST 0x7fc571c05570nok
+Process 0: Stack not Empty: TEST 0x7fc571c05180nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c46720  180
+NormalMoveUp0x7fc570c3b2c0
+Process 0: Stack not Empty: TEST 0x7fc571c02180nok
+Process 0: Stack not Empty: TEST 0x7fc570c53640nok
+Process 0: Stack not Empty: TEST 0x7fc571c05450nok
+Process 0: Stack not Empty: TEST 0x7fc571c08320nok
+Process 0: Stack not Empty: TEST 0x7fc571c078c0nok
+Process 0: Stack not Empty: TEST 0x7fc571c08d00nok
+Process 0: Stack not Empty: TEST 0x7fc571c07080nok
+Process 0: Stack not Empty: TEST 0x7fc571c0c270nok
+Process 0: Stack not Empty: TEST 0x7fc571c0ac80nok
+Process 0: Stack not Empty: TEST 0x7fc571c0a3f0nok
+Process 0: Stack not Empty: TEST 0x7fc571c0fe10nok
+Process 0: Stack not Empty: TEST 0x7fc571c0b240nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c3d8b0  12
+NormalMoveUp0x7fc570c46720
+Process 0: Stack not Empty: TEST 0x7fc571c12850nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571c13610nok
+Process 0: Stack not Empty: TEST 0x7fc570c54ae0nok
+Process 0: Stack not Empty: TEST 0x7fc571c136b0nok
+Process 0: Stack not Empty: TEST 0x7fc571c117e0nok
+Process 0: Stack not Empty: TEST 0x7fc571c0eb90nok
+Process 0: Stack not Empty: TEST 0x7fc571c14ac0nok
+Process 0: Stack not Empty: TEST 0x7fc570c54be0nok
+Process 0: Stack not Empty: TEST 0x7fc571c14b60nok
+Process 0: Stack not Empty: TEST 0x7fc571c157b0nok
+Process 0: Stack not Empty: TEST 0x7fc571c10f50nok
+Process 0: Stack not Empty: TEST 0x7fc571c1b650nok
+Process 0: Stack not Empty: TEST 0x7fc571c1acc0nok
+Process 0: Stack not Empty: TEST 0x7fc571c197f0nok
+Process 0: Stack not Empty: TEST 0x7fc570c54da0nok
+Process 0: Stack not Empty: TEST 0x7fc571c1ddc0nok
+Process 0: Stack not Empty: TEST 0x7fc571c18b70nok
+Process 0: Stack not Empty: TEST 0x7fc571c1f210nok
+Process 0: Stack not Empty: TEST 0x7fc571c1f430nok
+Process 0: Stack not Empty: TEST 0x7fc571c1f340nok
+Process 0: Stack not Empty: TEST 0x7fc571c22c20nok
+Process 0 : Posloucha peska :0 flag:0
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Stack not Empty: TEST 0x7fc571c19670nok
+Process 0: Stack not Empty: TEST 0x7fc571c25c80nok
+Process 0: Stack not Empty: TEST 0x7fc571c24b40nok
+Process 0: Stack not Empty: TEST 0move Up0x7fc570c4f130  24
+NormalMoveUp0x7fc570c3d8b0
+Process 0: Stack not Empty: TEST 0x7fc571c26b90nok
+Setting solution: 5
+Process 0 : Setting solution 5 and deleting stack
+deleting stack
+delete OK
+Process 0 : Sending Solutions
+
+Kostra  krokov 5
+Uzel 7 0 [ ] pridany v 0
+Uzel 9 0 [ ] pridany v 1
+Uzel 12 0 [ ] pridany v 2
+Uzel 15 0 [ ] pridany v 3
+Uzel 1 0 [ ] pridany v 6
+Uzel 5 0 [ ] pridany v 7
+Uzel 2 0 [ ] pridany v 10
+Uzel 6 0 [ ] pridany v 11
+Uzel 3 0 [ ] pridany v 12
+Uzel 14 0 [ ] pridany v 13
+Uzel 11 0 [ ] pridany v 17
+Uzel 10 0 [ ] pridany v 18
+Uzel 8 0 [ ] pridany v 20
+Uzel 4 0 [ ] pridany v 21
+Uzel 13 0 [ ] pridany v 23
+--------Transfering size: -------16
+
+ transfer
+
+Kostra krokov: 5
+6 10 12 21 7 11 0 20 1 18 17 2 23 13 3 
+deleting stack
+delete OK
+Process 0: Stack empty: 1Process 0 : Posila peska:0
+Process 0 : Request Work from :0 a mam peska:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0: Checking Work Transmits from: 0 Flag:0
+Process 0 : Posloucha peska :0 flag:1
+Process 0 : Prijma peska :0o barve0
+Process 0 : Sending KILL
+
+Process 0 : Exiting Solutions: deleting stack
+delete OK
+
+Process 0 : Msg Checked 
+Process 0: Process 0: Solution 
+Kostra  krokov 5
+Uzel 7 0 [ ] pridany v 0
+Uzel 9 0 [ ] pridany v 1
+Uzel 12 0 [ ] pridany v 2
+Uzel 15 0 [ ] pridany v 3
+Uzel 1 0 [ ] pridany v 6
+Uzel 5 0 [ ] pridany v 7
+Uzel 2 0 [ ] pridany v 10
+Uzel 6 0 [ ] pridany v 11
+Uzel 3 0 [ ] pridany v 12
+Uzel 14 0 [ ] pridany v 13
+Uzel 11 0 [ ] pridany v 17
+Uzel 10 0 [ ] pridany v 18
+Uzel 8 0 [ ] pridany v 20
+Uzel 4 0 [ ] pridany v 21
+Uzel 13 0 [ ] pridany v 23
+Process 0: Ukoncen???

@@ -10,6 +10,7 @@
 
 #include <vector>
 #include <string>
+#include <fstream>
 #include "Uzel.h"
 #include "functions.h"
 #include "LinkedStack.h"
@@ -17,6 +18,7 @@
 using namespace std;
 
 extern Uzel * uzly;
+extern ofstream file;
 
 
 class Kostra {
@@ -34,7 +36,7 @@ public:
     void remove();
     void remove(Uzel x);
     void toString();
-    void add(Uzel x);
+    void add(Uzel, int);
     Kostra * next();
     void test(vector<Uzel>::reverse_iterator it);
 

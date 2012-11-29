@@ -5,8 +5,13 @@
  * Created on November 18, 2012, 1:58 PM
  */
 #include <list>
+#include <iostream>
+#include <fstream>
+
 #ifndef UZEL_H
 #define	UZEL_H
+
+
 
 class Uzel {
 public:

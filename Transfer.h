@@ -8,12 +8,14 @@
 
 #include "Kostra.h"
 #include "LinkedStack.h"
+#include <fstream>
 
 #ifndef TRANSFER_H
 #define	TRANSFER_H
 
 extern Uzel * uzly;
 extern const int VERTICES;
+extern ofstream file;
 
 class Transfer {
 public:

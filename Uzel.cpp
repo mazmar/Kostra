@@ -11,13 +11,14 @@
 using namespace std;
 
 const int NO_NEXT = 0;
+extern ofstream file;
 
 void Uzel::toString() {
-    cout << "Uzel " << this->name + 1 << " " << current << " [ ";
+    file << "Uzel " << this->name + 1 << " " << current << " [ ";
     for (list<Uzel>::iterator i = hrany.begin(); i != hrany.end(); i++) {
-        cout << i->name + 1 << " ";
+        file << i->name + 1 << " ";
     }
-    cout << "] " << "pridany v " << pridane << "\n";
+    file << "] " << "pridany v " << pridane << "\n";
 }
 
 Uzel::Uzel() {
